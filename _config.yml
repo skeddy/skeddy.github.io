@@ -2,7 +2,7 @@ title: "The 60km, 40th birthday running crazy thing..."
 description: "Fundraising | Raising Awareness | Getting Knackered"
 show_downloads: false
 
-baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
