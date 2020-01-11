@@ -45,9 +45,9 @@ If you feel like dropping them a few quid, to help spur on my crazy 60km challen
 
 You can also follow these adventures via:
 
-[Instagram @ bobertsbirthday](https://www.instagram.com/bobertsbirthday)
+[Instagram - @bobertsbirthday](https://www.instagram.com/bobertsbirthday)
 
-[Twitter @bobertsbirthday](https://twitter.com/BobertsBirthday)
+[Twitter - @bobertsbirthday](https://twitter.com/BobertsBirthday)
 
 <i class="fa fa-facebook-square"></i>
 
