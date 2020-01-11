@@ -7,7 +7,7 @@ ref: events
 order: 2
 ---
 
-So here's how 2020 looks with thr events already booked (and distance committed to).
+So here's how 2020 looks with events already booked (and distance committed to).
 
 |Event|Date|Distance|Accumulated|
 | -| -| -----:| -----:|
