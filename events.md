@@ -7,6 +7,12 @@ ref: events
 order: 2
 ---
 
-This is where I'll be dropping a list of events that I'll be taking part in.
+Event scheudle up so far - and accumulated distance
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 [Go to the Home Page]({{ '/' | absolute_url }})
