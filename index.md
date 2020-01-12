@@ -49,8 +49,6 @@ You can also follow these adventures via:
 
 [Twitter - @bobertsbirthday](https://twitter.com/BobertsBirthday)
 
-<i class="fa fa-facebook-square"></i>
-
 I just want to finish by saying that anything you can give, will be very well received, even if it's a motivational kick up the backside to keep me going - It'll still mean the world to me.
 
 So thank you - thank you - thank you!
