@@ -7,7 +7,7 @@ ref: cruse
 order: 0
 ---
 
-<h2>About Cruse</h2>
+# About Cruse Bereavement Care
 
 Cruse Bereavement Care was founded in 1959 in Richmond upon Thames and is the leading national charity for bereaved people in England, 
 Wales and Northern Ireland.
