@@ -33,6 +33,8 @@ So I'm going to be taking part in various events over the year, to run a total o
 
 Yep, that's the plan. To date, I have **50.5km** booked - so I'm committed.
 
+**UPDATE** - All events are now listed on the [events page]('/events.html)
+
 60km will be done and it will take my legs to the limit and take my body to hell and back - I'll run/walk/crawl/slide to hit that magical 60km mark.
 
 So why do I need your fuzzy feelings? Well, quite simply, the Samaritans and Cruse are two absolutely fantastic organisations. Both have very personal connections to myself and the family, and I wanted to help fund raise for them in 2020.
