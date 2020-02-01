@@ -7,9 +7,9 @@ ref: samaritans
 order: 0
 ---
 
-# About The Samaritans
+<h2>About The Samaritans</h2>
 
-## Whatever you’re facing, a Samaritan will face it with you
+<h3>Whatever you’re facing, a Samaritan will face it with you</h3>
 
 Every six seconds, Samaritans answer a call for help.
 
@@ -29,7 +29,7 @@ That’s why we work tirelessly to reach more people and make suicide prevention
 
 Read more about our vision, mission and values.
 
-## Who we are
+<h3>Who we are</h3>
 During 2018, more than 20,000 people volunteered their time for Samaritans:
 
 - more than 17,000 trained listening volunteers responded to calls for help
