@@ -7,7 +7,7 @@ ref: samaritans
 order: 0
 ---
 
-<h2>Whatever you’re facing, a Samaritan will face it with you</h2>
+## Whatever you’re facing, a Samaritan will face it with you
 
 Every six seconds, Samaritans answer a call for help.
 
