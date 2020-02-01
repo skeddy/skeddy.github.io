@@ -1,6 +1,8 @@
 ---
 layout: home
-title: The 60km, 40th birthday running crazy thing...
+title: Home
+permalink: /index.html
+ref: home
 ---
 
 ## Hello!
