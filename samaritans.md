@@ -1,7 +1,6 @@
 ---
 layout: page
 title: The Samaritans
-tagline: All about The Samaritans
 permalink: /samaritans.html
 ref: samaritans
 order: 0
