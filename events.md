@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Events
-tagline: Events that I'm doing
+tagline: Target accumulative distance - 60km (or else)
 permalink: /events.html
 ref: events
 order: 2
