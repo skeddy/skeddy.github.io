@@ -8,7 +8,7 @@ instagram: B8W8jnLBoZ-
 order: 0
 ---
 
-# Proving a point mk3
+# Proving a point mk3.1
 
 {% include insta.html id=page.instagram %} 
 
