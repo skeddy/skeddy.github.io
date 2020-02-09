@@ -17,7 +17,7 @@ I have two Just Giving pages set up for each of my nominated charities, so do pl
 
 # Social media
 
-You can also follow these adventures on Instgram and Twitter:
+You can also follow these adventures on Instagram and Twitter:
 
 [Instagram - @bobertsbirthday](https://www.instagram.com/bobertsbirthday)
 
