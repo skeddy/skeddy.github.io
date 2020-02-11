@@ -2,6 +2,6 @@
 
 source 'https://rubygems.org'
 
-
+gem 'markdown_media'
 
 gemspec
