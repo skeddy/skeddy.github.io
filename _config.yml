@@ -22,7 +22,6 @@ instagram:
 plugins:
   - jekyll-target-blank
   - jekyll-gist
-  - jekyll_oembed
 
 target-blank:
     rel: nofollow
