@@ -9,6 +9,6 @@ order: 0
 
 # Proving a point mk4.1
 
-{% oembed https://www.youtube.com/watch?v=GPUaUgjbbsA %}
+{{% oembed https://www.youtube.com/watch?v=GPUaUgjbbsA %}}
 
 [Go to the Home Page]({{ '/' | absolute_url }})
