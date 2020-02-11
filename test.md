@@ -7,10 +7,8 @@ ref: test
 order: 0
 ---
 
-# Proving a point mk3.4
+# Proving a point mk4
 
-Gem test - video
-
-[[https://www.youtube.com/watch?v=YX40hbAHx3s]]
+{{% oembed https://www.youtube.com/watch?v=GPUaUgjbbsA %}}
 
 [Go to the Home Page]({{ '/' | absolute_url }})
