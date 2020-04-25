@@ -10,7 +10,7 @@ order: 2
 So here's how 2020 looks with events already booked (and distance committed to).
 <span style="font-size:50%">
 | Event | Date | Distance | Accumulated | Status |
-| ---| ---| ---:| ---:| ---:|
+| ---| ---| ---:| ---:| ---|
 | Running Grand Prix - Goodwood | April 19th 2020 | 10km | 10km |  |
 | The Mini Gauntlet 20KM Challenge | April  2020 | 20km | 30km | Completed |
 | Cinco de Mayo | May 2020 | 5km | 35km |  |
