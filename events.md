@@ -9,7 +9,7 @@ order: 2
 
 So here's how 2020 looks with events already booked (and distance committed to).
 
-| Event | Date | Distance | Accumulated | Status |
+| Event | Date | Distance | Total | Status |
 | ---| ---| ---:| ---:| ---|
 | Running GP Goodwood | 19-04-2020 | 10km | 10km | Completed 25-04 |
 | Mini Gauntlet Challenge | 04-2020 | 20km | 30km | Completed 21-04 |
