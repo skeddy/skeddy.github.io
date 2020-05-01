@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello world!
+title: Test page
 tagline: You found the random test page
 permalink: /test.html
 ref: test
