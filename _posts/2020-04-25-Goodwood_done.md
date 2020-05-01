@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "So what's this all about?"
+title: "Goodwood virtual 10km - done!"
 ---
-
-## Goodwood virtual 10km - done!
 
 So this happened....
 
