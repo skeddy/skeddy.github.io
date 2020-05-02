@@ -1,6 +1,6 @@
 ---
 layout: home
-title: That crazy running thing
+title: Homepage
 permalink: /index.html
 ref: home
 ---
