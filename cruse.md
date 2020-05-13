@@ -20,6 +20,8 @@ Wales and Northern Ireland.
 Cruse offers face-to-face, telephone, email and website support. We have a Freephone national helpline and local services, 
 and a website [hopeagain.org.uk](http://hopeagain.org.uk) specifically for children and young people. Our services are provided by our network of 5,000 trained volunteers and are confidential and free. Cruse also provides training and consultancy for external organisations and for those who may encounter bereaved people in the course of their work. Read our latest Annual Review to find out more about the impact of our work.
 
-Cruse Bereavement Care is committed to being a diverse and inclusive charity that is accessible to all sections of society. 
+Cruse Bereavement Care is committed to being a diverse and inclusive charity that is accessible to all sections of society.
+
+<div id="jg-widget-skeddy-cruse-332"></div><script>(function(){var id="jg-widget-skeddy-cruse-332",doc=document,pfx=(window.location.toString().indexOf("https")==0)?"https":"http";var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+"://widgets.justgiving.com/fundraisingpage/skeddy-cruse?enc=ZT1qZy13aWRnZXQtc2tlZGR5LWNydXNlLTMzMiZ3PTQwMCZiPWlubmVyLGRvbmF0ZSxmdW5kcmFpc2UmaWI9dGl0bGUsc3VtbWFyeSxwcm9ncmVzcyxyYWlzZWQsdGFyZ2V0";el.parentNode.insertBefore(js, el);}})();</script>
 
 [Go to the Home Page]({{ '/' | absolute_url }})
