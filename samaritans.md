@@ -33,4 +33,6 @@ During 2018, more than 20,000 people volunteered their time for Samaritans:
 - 2,200 volunteers supported the running of our 201 branches
 - more than 1,200 people in prisons volunteered as trained Listeners providing peer support.
 
+<div id="jg-widget-skeddy-samaritans-796"></div><script>(function(){var id="jg-widget-skeddy-samaritans-796",doc=document,pfx=(window.location.toString().indexOf("https")==0)?"https":"http";var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+"://widgets.justgiving.com/fundraisingpage/skeddy-samaritans?enc=ZT1qZy13aWRnZXQtc2tlZGR5LXNhbWFyaXRhbnMtNzk2Jnc9NDAwJmI9aW5uZXIsZG9uYXRlLGZ1bmRyYWlzZSZpYj10aXRsZSxwcm9ncmVzcyxyYWlzZWQsdGFyZ2V0";el.parentNode.insertBefore(js, el);}})();</script>
+
 [Go to the Home Page]({{ '/' | absolute_url }})
