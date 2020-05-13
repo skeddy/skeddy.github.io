@@ -11,7 +11,7 @@ April saw me complete:
 
 * [Mini Gauntlet Challenge](https://skeddy.github.io/2020/05/13/The_Mini_Infinity_Gauntlet_20km.html)
 
-I'm feeling great after both of these, and alraedy have another medal lined up for May to complete.
+I'm feeling great after both of these, and already have another medal lined up for May to complete.
 
 Events are still being shaken about, and yesterday I agreed with my team mates to defer the Nuclear Rush 7km from October to May next year. 
 
