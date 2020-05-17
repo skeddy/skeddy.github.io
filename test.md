@@ -7,6 +7,8 @@ ref: test
 order: 0
 ---
 
+![Image](./content/CincoDeMayo.jpg)
+
 ## Latest posts
 
 <!-- Place <div> tag where you want the feed to appear -->
