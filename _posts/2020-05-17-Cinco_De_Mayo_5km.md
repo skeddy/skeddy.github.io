@@ -9,7 +9,7 @@ A single run that I did on the 16th May 2020.
 
 ## The medal
 
-![Cinco De Mayo medal](./content/CincoDeMayo.jpg)
+![Cinco De Mayo medal](/content/CincoDeMayo.jpg)
 
 ## Garmin tracking
 
