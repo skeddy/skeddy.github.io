@@ -12,8 +12,8 @@ cayman-blog:
 theme: # leave it empty
 
 # Or try
-# markdown: GFM
-markdown: kramdown
+markdown: GFM
+# markdown: kramdown
 
 # social
 author: bobertsBirthday
