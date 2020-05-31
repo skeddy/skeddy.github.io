@@ -17,7 +17,8 @@ theme: # leave it empty
 
 # social
 author: bobertsBirthday
-image: /thumbnail-jumbo.png
+# image: /thumbnail-jumbo.png
+image: /content/CincoDeMayo.jpg
 twitter:
   username: bobertsBirthday
 instagram:
