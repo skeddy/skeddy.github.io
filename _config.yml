@@ -11,7 +11,9 @@ cayman-blog:
 
 theme: # leave it empty
 
-# Or try
+# Dependencies
+markdown:    kramdown
+highlighter: pygments
 # markdown: GFM
 # markdown: kramdown
 
