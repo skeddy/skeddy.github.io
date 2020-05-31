@@ -26,6 +26,7 @@ instagram:
 plugins:
   - jekyll-target-blank
   - jekyll-gist
+  - jemoji
 
 target-blank:
     rel: nofollow
