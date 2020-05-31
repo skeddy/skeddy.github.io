@@ -19,6 +19,10 @@ So here's how 2020/2021 looks with events already booked (and distance committed
 | [ ] Nuclear Rush | 16-05-2021 | 7km | 52km |  |
 | [ ] The Shere Half | TBC | 21km | 73km |  |
 
+[x]
+[x]
+[ ]
+
 ## Samaritans
 
 <div id="jg-widget-skeddy-samaritans-796"></div><script>(function(){var id="jg-widget-skeddy-samaritans-796",doc=document,pfx=(window.location.toString().indexOf("https")==0)?"https":"http";var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+"://widgets.justgiving.com/fundraisingpage/skeddy-samaritans?enc=ZT1qZy13aWRnZXQtc2tlZGR5LXNhbWFyaXRhbnMtNzk2Jnc9NDAwJmI9aW5uZXIsZG9uYXRlLGZ1bmRyYWlzZSZpYj10aXRsZSxwcm9ncmVzcyxyYWlzZWQsdGFyZ2V0";el.parentNode.insertBefore(js, el);}})();</script>
