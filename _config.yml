@@ -12,7 +12,7 @@ cayman-blog:
 theme: # leave it empty
 
 # Or try
-markdown: GFM
+# markdown: GFM
 # markdown: kramdown
 
 # social
