@@ -16,12 +16,12 @@ theme: # leave it empty
 markdown: kramdown
 
 # social
-author: BobertsBirthday
+author: bobertsBirthday
 image: /thumbnail-jumbo.png
 twitter:
-  username: BobertsBirthday
+  username: bobertsBirthday
 instagram:
-  username: BobertsBirthday
+  username: bobertsBirthday
 
 plugins:
   - jekyll-target-blank
