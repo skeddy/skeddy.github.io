@@ -20,7 +20,7 @@ So here's how 2020/2021 looks with events already booked (and distance committed
 | [ ] The Shere Half | TBC | 21km | 73km |  |
 
 - [x]
--- [x]
+- [x]
 - [ ]
 
 ## Samaritans
