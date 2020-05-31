@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events
+title: :medal_sports: Events :medal_sports: 
 tagline: Target distance - 60km (or else/more)
 permalink: /events.html
 ref: events
