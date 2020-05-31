@@ -13,7 +13,7 @@ A single run that I did on the 16th May 2020.
 
 ## Garmin tracking
 
-<iframe src='https://connect.garmin.com/modern/activity/embed/4940969669' title='Cinco De Mayo 5km' width='465' height='500' frameborder='0'></iframe>
+<iframe src='https://connect.garmin.com/modern/activity/embed/4940969669' title='Cinco De Mayo 5km' width='400' height='500' frameborder='0'></iframe>
 
 ## Donation links
 
