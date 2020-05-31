@@ -12,7 +12,6 @@ cayman-blog:
 theme: # leave it empty
 
 # Dependencies
-markdown:    GFM
 # markdown: GFM
 # markdown: kramdown
 
