@@ -19,6 +19,10 @@ So here's how 2020/2021 looks with events already booked (and distance committed
 | - [ ] Nuclear Rush | 16-05-2021 | 7km | 54.5km |  |
 | - [ ] The Shere Half | TBC | 21km | 75.5km |  |
 
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
 
 ## Samaritans
 
