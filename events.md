@@ -11,13 +11,13 @@ So here's how 2020/2021 looks with events already booked (and distance committed
 
 | Event | Date | Distance | Total | Completed |
 | ---| ---| ---| ---| ---|
-| ::thumbsup:: Running GP Goodwood | 25-04-2020 | 10km | 10km | 25-04-2020 |
-| ::thumbsup:: Mini Gauntlet Challenge | 21-04-2020 | 20km | 30km | 21-04-2020 |
-| ::thumbsup:: Cinco de Mayo | 16-05-2020 | 5km | 35km | 16-05-2020 |
+| :thumbsup: Running GP Goodwood | 25-04-2020 | 10km | 10km | 25-04-2020 |
+| :thumbsup: Mini Gauntlet Challenge | 21-04-2020 | 20km | 30km | 21-04-2020 |
+| :thumbsup: Cinco de Mayo | 16-05-2020 | 5km | 35km | 16-05-2020 |
 | ~~Inflatable Chichester~~ | ~~30-08-2020~~| ~~2.5km~~ | ~~37.5km~~ |  |
-| ::runner:: Worthing 10km | 04-10-2020 | 10km | 45km |  |
-| ::runner:: Nuclear Rush | 16-05-2021 | 7km | 52km |  |
-| ::question:: The Shere Half | TBC | 21km | 73km |  |
+| :runner: Worthing 10km | 04-10-2020 | 10km | 45km |  |
+| :runner: Nuclear Rush | 16-05-2021 | 7km | 52km |  |
+| :question: The Shere Half | TBC | 21km | 73km |  |
 
 ## Samaritans
 
