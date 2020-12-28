@@ -12,11 +12,22 @@ So here's how 2020/2021 looks with events already booked (and distance committed
 | Event | Date | Distance | Total | Completed |
 | ---| ---| ---| ---| ---|
 | :medal_sports: Running GP Goodwood | 25-04-2020 | 10km | 10km | 25-04-2020 |
-| :medal_sports: Mini Gauntlet Challenge | 21-04-2020 | 20km | 30km | 21-04-2020 |
+| :medal_sports: Mini Gauntlet Challenge (Multi) | 21-04-2020 | 20km | 30km | 21-04-2020 |
 | :medal_sports: Cinco de Mayo | 16-05-2020 | 5km | 35km | 16-05-2020 |
-| :runner: Nuclear Rush | 16-05-2021 | 7km | 42km |  |
-| :runner: Inflatable Haywards Heath | 10-07-2021 | 5km | 47km |  |
+| :medal_sports: The Polar Run 10KM 2020 | 12-12-2020 | 10km | 45km | 22-12-2020 |
+| :runner: Nuclear Rush | 16-05-2021 | 7km | 52km |  |
+| :runner: Inflatable Haywards Heath | 10-07-2021 | 5km | 57km |  |
 | ~~:runner: The Shere Half~~ | ~~TBC~~ | ~~21km~~ | ~~73km~~ |  |
+
+:medal_sports: - Event completed
+:runner: - Event still to be complete
+
+## The rules
+
+Unless stated, all events will be run in a single attempt.
+
+Where an event is "virtual" or can be completed in stages, it will be tagged with *(Multi)*.
+
 
 ## Samaritans
 
