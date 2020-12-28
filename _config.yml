@@ -9,7 +9,7 @@ baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it emp
 cayman-blog:
   date_format: "%a - %b %-d - %Y"
 
-theme: # leave it empty
+theme: jekyll-theme-modernist
 
 # Dependencies
 # markdown: GFM
