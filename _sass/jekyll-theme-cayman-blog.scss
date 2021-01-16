@@ -110,7 +110,8 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background: linear-gradient(to right, #4B1248, #F0C27B);
+  background: radial-gradient(circle, rgba(32,212,23,1) 0%, rgba(33,37,33,1) 100%);
+  /* background: linear-gradient(to right, #4B1248, #F0C27B); */
   /* background-image: linear-gradient(120deg, #F0C27B, $header-bg-color); */
 
   @include large {
