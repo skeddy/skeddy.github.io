@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Events
-tagline: Target distance - 100km
+tagline: Target distance - 150km
 permalink: /events.html
 ref: events
 order: 2
