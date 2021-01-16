@@ -7,7 +7,9 @@ baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it emp
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 cayman-blog:
-  date_format: "%a - %b %-d - %Y"
+  date_format: "%a %b %d %Y"
+  # was: date_format: "%a - %b %-d - %Y"
+  # fuck knows why!!
 
 theme: # leave it empty
 
