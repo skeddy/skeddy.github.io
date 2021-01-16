@@ -343,6 +343,8 @@ a {
         word-break: normal;
         word-break: keep-all; // For Firefox to horizontally scroll wider tables.
         -webkit-overflow-scrolling: touch;
+        font-size: small;
+        font-family: 'Roboto';
 
         th {
             font-weight: bold;
