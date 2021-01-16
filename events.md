@@ -30,6 +30,8 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 
 :runner: - Event still to be complete
 
+:watch: - Event planned... for a medal of some description
+
 ## The rules
 
 Unless stated, all events will be run in a *single* attempt.
