@@ -4,6 +4,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700'); */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
 @import "blog";
 
 @mixin large {
@@ -31,7 +32,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Love Ya Like A Sister', 'Special Elite', cursive, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Aleo', 'Love Ya Like A Sister', 'Special Elite', cursive, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: $body-text-color;
