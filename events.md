@@ -14,17 +14,11 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 | :medal_sports: Mini Gauntlet Challenge (Multi) | 21-04-20 | 20km | 20km | 21-04-20
 | :medal_sports: Running GP Goodwood (Virtual) | 25-04-20 | 10km | 30km | 25-04-20
 | :medal_sports: Cinco de Mayo | 16-05-20 | 5km | 35km | 16-05-20
-| :medal_sports: The Polar Run 10KM 2020 (Multi) | 12-12-20 | 10km | 45km | 12-12-20
-| :watch: 5km for medal March 2021 | 01-03-21 | 5km | 50km | 01-03-21
-| :watch: 5km for medal April 2021 | 01-04-21 | 5km | 55km | 01-04-21
-| :watch: 5km for medal May 2021 | 01-05-21 | 5km | 60km | 01-05-21
-| :runner: Nuclear Rush | 16-05-21 | 7km | 67km | 16-05-21
-| :watch: 5km for medal June 2021 | 01-06-21 | 5km | 72km | 01-06-21
-| :runner: Worthing 10km | 13-06-21 | 10km | 82km | 13-06-21
-| :watch: 5km for medal July 2021 | 01-07-21 | 5km | 87km | 01-07-21
-| :runner: Inflatable Haywards Heath | 10-07-21 | 5km | 92km | 10-07-21
-| :watch: 5km for medal August 2021 | 01-08-21 | 5km | 97km | 01-08-21
-| :watch: 5km for medal September 2021 | 01-09-21 | 5km | 102km | 01-09-21
+| :medal_sports: The Polar Run 10k 2020 (Multi) | 12-12-20 | 10km | 45km | 12-12-20
+| :runner: Worthing 10k | 13-06-21 | 10km | 55km | 13-06-21
+| :runner: Nuclear Rush | 04-07-21 | 7km | 62km | 04-07-21
+| :runner: Inflatable Haywards Heath | 10-07-21 | 5km | 67km | 10-07-21
+| :runner: Arundel 10k | 29-08-21 | 10km | 77km | 29-08-21
 
 :medal_sports: - Event completed
 
