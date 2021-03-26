@@ -15,10 +15,11 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 | :medal_sports: Running GP Goodwood (Virtual) | 25-04-20 | 10km | 30km | 25-04-20
 | :medal_sports: Cinco de Mayo | 16-05-20 | 5km | 35km | 16-05-20
 | :medal_sports: The Polar Run 10k 2020 (Multi) | 12-12-20 | 10km | 45km | 12-12-20
-| :runner: Worthing 10k | 13-06-21 | 10km | 55km | 13-06-21
-| :runner: Nuclear Rush | 04-07-21 | 7km | 62km | 04-07-21
-| :runner: Inflatable Haywards Heath | 10-07-21 | 5km | 67km | 10-07-21
-| :runner: Arundel 10k | 29-08-21 | 10km | 77km | 29-08-21
+| :runner: Back to Fitness (Multi) | 01-04-21 | 42km | 87km | 01-04-21
+| :runner: Worthing 10k | 13-06-21 | 10km | 97km | 13-06-21
+| :runner: Nuclear Rush | 04-07-21 | 7km | 104km | 04-07-21
+| :runner: Inflatable Haywards Heath | 10-07-21 | 5km | 109km | 10-07-21
+| :runner: Arundel 10k | 29-08-21 | 10km | 119km | 29-08-21
 
 :medal_sports: - Event completed
 
