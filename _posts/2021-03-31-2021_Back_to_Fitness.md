@@ -19,20 +19,20 @@ I signed up for it because I completed their [Goodbye 2020 Virtual Challenge](ht
 
 The Back to fitness challenge is by no means easy... to get the medal, I have 4 weeks to do the following:
 
-*Complete a total of 26 miles walking/running
-*While completing the above, walk/run street names that spell out Delorean
-*Complete a total of 1985 reps, consisting of 
-**Dog leg raises
-**Burpess
-**Jumping Squats
-**Sit-ups
-**Squat Thursts
-**Mountain Climbers
-**Squats
+* Complete a total of 26 miles walking/running
+* While completing the above, walk/run street names that spell out Delorean
+* Complete a total of 1985 reps, consisting of 
+** Dog leg raises
+** Burpess
+** Jumping Squats
+** Sit-ups
+** Squat Thursts
+** Mountain Climbers
+** Squats
 
 To save you the maths, that's 71 of each excercise, each week!! 
 
-OMG!
+*OMG!*
 
 So it's going to be a fun April that's for sure. I'll do my best to keep a running tally up on the old social channels. But for now, I need to get this post up, and then circle back and update you all on the "[Goodbye 2020 Virtual Challenge](https://www.instagram.com/p/CJeFPh_Av2k/?utm_source=ig_web_copy_link)" challenge.
 
