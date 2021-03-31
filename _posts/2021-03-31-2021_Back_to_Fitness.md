@@ -22,13 +22,13 @@ The Back to fitness challenge is by no means easy... to get the medal, I have 4 
 * Complete a total of 26 miles walking/running
 * While completing the above, walk/run street names that spell out Delorean
 * Complete a total of 1985 reps, consisting of 
-** Dog leg raises
-** Burpess
-** Jumping Squats
-** Sit-ups
-** Squat Thursts
-** Mountain Climbers
-** Squats
+  * Dog leg raises
+  * Burpess
+  * Jumping Squats
+  * Sit-ups
+  * Squat Thursts
+  * Mountain Climbers
+  * Squats
 
 To save you the maths, that's 71 of each excercise, each week!! 
 
