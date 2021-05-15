@@ -16,11 +16,11 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 | :medal_sports: Cinco de Mayo | 5km | 35km | 115km | 16-05-20
 | :medal_sports: Goodbye 2020 Virtual Challenge (Multi) | 9km | 44km | 106km | 12-12-20
 | :medal_sports: The Polar Run 10k 2020 (Multi) | 10km | 54km | 96km | 12-12-20
-| :runner: Back to Fitness (Multi) | 42km | 96km | 54km | 01-04-21
-| :runner: Worthing 10k | 10km | 106km | 44km | 13-06-21
-| :runner: Nuclear Rush | 7km | 113km | 37km | 04-07-21
-| :runner: Inflatable Haywards Heath | 5km | 118km | 32km | 10-07-21
-| :runner: Arundel 10k | 10km | 128km | 22km | 29-08-21
+| :medal_sports: Back to Fitness (Multi) | 42km | 96km | 54km | 01-04-21
+| :runner: Nuclear Rush | 7km | 103km | 47km | 04-07-21
+| :runner: Inflatable Haywards Heath | 5km | 108km | 42km | 10-07-21
+| :runner: Arundel 10k | 10km | 118km | 32km | 29-08-21
+| :runner: Worthing 10k | 10km | 128km | 22km | 10-09-21
 
 :medal_sports: - Event completed
 
