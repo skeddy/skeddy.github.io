@@ -17,7 +17,7 @@ Do please check out the donation links, and the extra info on each of the charti
 
 ## The check list
 
-![The checklist](/content/BTF_Checklist.jpg)
+![The checklist](/content/BTF_List.jpg)
 
 ## The medal
 
