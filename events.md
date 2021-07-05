@@ -17,7 +17,7 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 | :medal_sports: Goodbye 2020 Virtual Challenge (Multi) | 9km | 44km | 106km | 12-12-20
 | :medal_sports: The Polar Run 10k 2020 (Multi) | 10km | 54km | 96km | 12-12-20
 | :medal_sports: Back to Fitness (Multi) | 42km | 96km | 54km | 01-04-21
-| :runner: Nuclear Rush (Obstacles) | 7km | 103km | 47km | 04-07-21
+| :medal_sports: Nuclear Rush (Obstacles) | 7km | 103km | 47km | 04-07-21
 | :runner: Inflatable Haywards Heath (Obstacles) | 5km | 108km | 42km | 10-07-21
 | :runner: Arundel 10k | 10km | 118km | 32km | 29-08-21
 | :runner: Littlehampton 10k | 10km | 128km | 22km | 05-09-21
