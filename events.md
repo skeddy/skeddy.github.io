@@ -22,7 +22,7 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 | :medal_sports: Arundel 10k | 10km | 118km | 32km | 29-08-21
 | :medal_sports: Littlehampton 10k | 10km | 128km | 22km | 05-09-21
 | :medal_sports: Worthing 10k | 10km | 138km | 12km | 10-10-21
-| :thinking: :raised_eyebrow: Something.... | 12km | 150km | 0km | ??-12-21
+| :thinking: Something.... | 12km | 150km | 0km | ??-12-21
 
 :medal_sports: - Event completed
 
