@@ -21,7 +21,8 @@ So here's how 2020 looked and how 2021 is shaping up with events already booked 
 | :medal_sports: Inflatable Haywards Heath (Obstacles) | 5km | 108km | 42km | 10-07-21
 | :medal_sports: Arundel 10k | 10km | 118km | 32km | 29-08-21
 | :medal_sports: Littlehampton 10k | 10km | 128km | 22km | 05-09-21
-| :runner: Worthing 10k | 10km | 138km | 12km | 10-10-21
+| :medal_sports: Worthing 10k | 10km | 138km | 12km | 10-10-21
+| :thinking: :raised_eyebrow: Something.... | 12km | 150km | 0km | ??-12-21
 
 :medal_sports: - Event completed
 
