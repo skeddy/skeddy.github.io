@@ -12,7 +12,7 @@ In 1972, a crack commando unit was sent to prison by a military court for a crim
 
 In 1980, the guy writing this was spat out onto this world.  
 
-The men from 19772 promptly escaped from a maximum security stockade to the Los Angeles underground.  
+The men from 1972 promptly escaped from a maximum security stockade to the Los Angeles underground.  
 
 Me? I just grew up, took things in, got inquisitive and grew into a person that liked to prod and poke technology to see if it worked.  
 
