@@ -28,11 +28,19 @@ If you've found this page, either I've told you (great) or it's me reminding mys
 
 I'll break this page into three parts:  
 
-* Fast Fix Scenarios (FFS)
-* If I've helped... help others
-* Deeper background into the FFS above...
+* Fast Fix Scenarios (FFS)  
+* If I've helped... help others  
+* Deeper background into the FFS above...  
 
 ## Fast Fix Scenarios (FFS)
+
+Content is going to go here  
+
+There will be:  
+
+* Easy copy/paste scripts
+* If I've helped... help others
+* Deeper background into the FFS above...
 
 ## If I've helped... help others
 
