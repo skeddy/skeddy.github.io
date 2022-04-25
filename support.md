@@ -34,7 +34,17 @@ I'll break this page into three parts:
 
 ## Fast Fix Scenarios (FFS)
 
-Content is going to go here  
+Content is going to go here   (more)
+
+*Clear all event logs so you can see what is going on*
+*Note: Needs Admin CMD* 
+
+`for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"`
+
+*Run a system check at boot (Accept and reboot)*
+*Note: Can take 4 hours+*
+
+`chkdsk /x /f /r`
 
 There will be:  
 
