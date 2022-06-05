@@ -1,5 +1,5 @@
-title: "The 40th birthday 150km running thing (slightly delayed)"
-description: "Fundraising | Raising Awareness | Getting Knackered | Now in 2021"
+title: "skeddy.githib.io"
+description: "Under construction | June 2022"
 show_downloads: false
 
 baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -34,4 +34,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['home', 'links', 'cruse', 'samaritans', 'events']
+header_page_refs: ['home', 'support']
