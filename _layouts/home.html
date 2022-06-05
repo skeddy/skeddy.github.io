@@ -1,20 +1,19 @@
 ---
 layout: default
 ---
+<!-- jekyll static content from index.md -->
+{{ content }}
 
 <!-- jekyll dynamic content -->
-
 <div>
-
     <h2>Latest updates...</h2>
-
     <div>&nbsp;</div>
-
     <ul class="post-list">
         {% for post in site.posts %}
         <li>
             <h2>
-                <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+                <a class="post-link" href="{{ post.url | absolute_url }}"
+                    title="{{ post.title }}">{{ post.title | escape }}</a>
             </h2>
             {{ post.excerpt | markdownify | truncatewords: 30 }}
             {% assign date_format = site.cayman-blog.date_format | default: "%a %b %d %Y" %}
@@ -23,7 +22,3 @@ layout: default
         {% endfor %}
     </ul>
 </div>
-
-<!-- jekyll page content -->
-
-{{ content }}
