@@ -18,13 +18,13 @@ theme: # leave it empty
 # markdown: kramdown
 
 # social
-author: bobertsBirthday
+author: Skeddy
 # image: /thumbnail-jumbo.png
 image: /content/header.png
 twitter:
-  username: bobertsBirthday
+  username: skeddy
 instagram:
-  username: bobertsBirthday
+  username: skeddy
 
 plugins:
   - jekyll-target-blank
