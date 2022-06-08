@@ -22,14 +22,12 @@ Today, still wanted by the government the guys from 1972 survive as soldiers of 
 
 But... If you have a problem, if no one else can help, and if you can find me....maybe I'll get your PC issue sorted so you don't have to call these old guys from '72 or worse.... argue with some turd at Currys/PC World.  
 
-## Disclaimer
-
-If you've found this page, either I've told you (great) or it's me reminding myself of the process I follow to resovlve a problem.  
+## What's here?
 
 I'll break this page into three parts:  
 
 * Fast Fix Scenarios (FFS)  
-* If I've helped... help others  
+* If I've helped... 
 * Deeper background into the FFS above...  
 
 ## Fast Fix Scenarios (FFS)
@@ -52,30 +50,28 @@ There will be:
 * If I've helped... help others
 * Deeper background into the FFS above...
 
-## If I've helped... help others
+## If I've helped...
 
-I give my time freely, and I'll honestly let you know if it's been more hands on than hands off.  
+I'll honestly let you know if my time has been more hands on than hands off, and not take the proverbial for any payment.
 
-If it has been a hands on task, I'll point you in the direction of the two wonderful charties below:
+And if you do want to bung me a few quid here or there, then I'll point you in the direction of the two wonderful charties below:
 
 ### Samaritans
 
-[https://www.samaritans.org/](https://www.samaritans.org/)
+[https://www.samaritans.org](https://www.samaritans.org)
 
-<a href="https://www.samaritans.org/" target="_self">https://www.samaritans.org/</a>
+*Samaritans is a registered charity aimed at providing emotional support to anyone in emotional distress, struggling to cope, or at risk of suicide throughout Great Britain and Ireland, often through their telephone helpline*
 
-<p>Samaritans is a registered charity aimed at providing emotional support to anyone in emotional distress, struggling to cope, or at risk of suicide throughout Great Britain and Ireland, often through their telephone helpline</p>
+### Cruse Bereavement Support
 
-### Cruse
+[https://www.cruse.org.uk](https://www.cruse.org.uk)
 
-<a href="https://www.cruse.org.uk/" target="_self">https://www.cruse.org.uk/</a>
-
-<p>Cruse Bereavement Support and its counterpart Cruse Bereavement Care Scotland are the United Kingdom's largest bereavement charity, which provide free care and bereavement counselling to people suffering from grief</p>
+*Cruse Bereavement Support and its counterpart Cruse Bereavement Care Scotland are the United Kingdom's largest bereavement charity, which provide free care and bereavement counselling to people suffering from grief*
 
 ## Deeper background into the FFS above...
 
 TODO  
 
-It's always TODO....  
+*It's always TODO.... *
 
 [Go to the Home Page]({{ '/' | absolute_url }})  
