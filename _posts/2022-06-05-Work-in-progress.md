@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Work in progress"
 ---
 
-Holding page... stuff to come
+Just a quick update that the site is up and running and I'll be posting some regular updates here as I work my way through the year.
