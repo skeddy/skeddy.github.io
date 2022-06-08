@@ -2,7 +2,7 @@
 layout: page
 title: Tech Support
 permalink: /support.html
-ref: techsupport
+ref: support
 order: 0
 ---
 
