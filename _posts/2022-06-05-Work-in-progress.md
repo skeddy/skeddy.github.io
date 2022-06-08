@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Holding Page"
+title: ""
 ---
 
 Holding page... stuff to come
