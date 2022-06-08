@@ -6,7 +6,7 @@ ref: home
 ---
 # Hello!
 
-Welcome to my slightly often but not little space on the web!
+Welcome to my slightly but not often updated little space on the web!
 
 I'm a techincal analyst by day, gamer/tech support at night (and sometimes during the day).
 
