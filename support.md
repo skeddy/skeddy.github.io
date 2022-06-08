@@ -58,17 +58,19 @@ I give my time freely, and I'll honestly let you know if it's been more hands on
 
 If it has been a hands on task, I'll point you in the direction of the two wonderful charties below:
 
-### The Samaritans
+### Samaritans
 
-<a href="samaritans.html" target="_self">For more info on The Samaritans, click here!</a>
+[https://www.samaritans.org/](https://www.samaritans.org/)
 
-<div id="jg-widget-skeddy-samaritans-796"></div><script>(function(){var id="jg-widget-skeddy-samaritans-796",doc=document,pfx=(window.location.toString().indexOf("https")==0)?"https":"http";var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+"://widgets.justgiving.com/fundraisingpage/skeddy-samaritans?enc=ZT1qZy13aWRnZXQtc2tlZGR5LXNhbWFyaXRhbnMtNzk2Jnc9NDAwJmI9aW5uZXIsZG9uYXRlLGZ1bmRyYWlzZSZpYj10aXRsZSxwcm9ncmVzcyxyYWlzZWQsdGFyZ2V0";el.parentNode.insertBefore(js, el);}})();</script>
+<a href="https://www.samaritans.org/" target="_self">https://www.samaritans.org/</a>
+
+<p>Samaritans is a registered charity aimed at providing emotional support to anyone in emotional distress, struggling to cope, or at risk of suicide throughout Great Britain and Ireland, often through their telephone helpline</p>
 
 ### Cruse
 
-<a href="cruse.html" target="_self">For more info on Cruse, click here!</a>
+<a href="https://www.cruse.org.uk/" target="_self">https://www.cruse.org.uk/</a>
 
-<div id="jg-widget-skeddy-cruse-332"></div><script>(function(){var id="jg-widget-skeddy-cruse-332",doc=document,pfx=(window.location.toString().indexOf("https")==0)?"https":"http";var el=doc.getElementById(id);if(el){var js=doc.createElement('script');js.src=pfx+"://widgets.justgiving.com/fundraisingpage/skeddy-cruse?enc=ZT1qZy13aWRnZXQtc2tlZGR5LWNydXNlLTMzMiZ3PTQwMCZiPWlubmVyLGRvbmF0ZSxmdW5kcmFpc2UmaWI9dGl0bGUsc3VtbWFyeSxwcm9ncmVzcyxyYWlzZWQsdGFyZ2V0";el.parentNode.insertBefore(js, el);}})();</script>
+<p>Cruse Bereavement Support and its counterpart Cruse Bereavement Care Scotland are the United Kingdom's largest bereavement charity, which provide free care and bereavement counselling to people suffering from grief</p>
 
 ## Deeper background into the FFS above...
 
