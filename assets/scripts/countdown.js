@@ -2,7 +2,7 @@ const daysE1 = document.getElementById('Days');
 const hoursE1 = document.getElementById('Hours');
 const minutesE1 = document.getElementById('Minutes');
 const secondsE1 = document.getElementById('Seconds');
-const newYears = "1 Jan 2022"
+const newYears = "23 Jul 2022"
 function countdown() {
     const newYearDate = new Date(newYears);
     const currentDate = new Date();
