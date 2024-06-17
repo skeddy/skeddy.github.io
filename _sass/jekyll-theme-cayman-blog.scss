@@ -7,6 +7,8 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+/* New font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "blog";
 
 @mixin large {
@@ -32,9 +34,10 @@
 }
 
 body {
+    /* Change the font name here */
     padding: 0;
     margin: 0;
-    font-family: 'Oswald', Arial, sans-serif;
+    font-family: 'DM+Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: $body-text-color;
