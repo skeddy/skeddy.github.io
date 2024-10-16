@@ -75,3 +75,7 @@ TODO
 *It's always TODO.... *
 
 [Go to the Home Page]({{ '/' | absolute_url }})  
+
+## Example Image
+
+![Image](https://drive.google.com/file/d/1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl/view?usp=sharing)'
