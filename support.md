@@ -78,4 +78,5 @@ TODO
 
 ## Example Image
 
-![Image](https://drive.google.com/file/d/1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl/view?usp=sharing)'
+![Image](https://drive.google.com/file/d/1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl/view?usp=drive_link)'
+
