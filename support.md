@@ -78,6 +78,6 @@ TODO
 
 ## Example Image
 
-![Alt Text](https://drive.google.com/uc?export=view&id=1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl)
+![A linked Image](https://drive.google.com/uc?export=view&id=1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl)
 
 
