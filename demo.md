@@ -3,7 +3,7 @@ layout: page
 title: Demo
 permalink: /demo.html
 ref: demo
-order: 1
+order: 0
 ---
 
 ## If you've found this... it's a demo
