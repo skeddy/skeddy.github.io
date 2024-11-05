@@ -2,8 +2,8 @@
 layout: page
 title: Demo
 permalink: /demo.html
-ref: support
-order: 0
+ref: demo
+order: 3
 ---
 
 ## If you've found this... it's a demo
