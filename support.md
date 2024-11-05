@@ -3,7 +3,7 @@ layout: page
 title: Tech Support
 permalink: /support.html
 ref: support
-order: 0
+order: 2
 ---
 
 ## If you've found this... you got a problem
