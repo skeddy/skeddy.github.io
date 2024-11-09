@@ -31,7 +31,7 @@ It is also where we elect the new committee for the forthcoming year.
 
 All meetings are open and any member can come along to find out what the PTFA is planning, share ideas and get involved – we would love to see you!
 
-##How we raise money
+## How we raise money
 The majority of funds are raised through events and activities we run throughout the year, as well as some ongoing fundraisers.  We also arrange events such as race nights, quiz nights etc. so look out for news!
 
 *Donations from you, whether that be your time, money, cakes, raffle prizes etc. are critical in making these activities and events a success – we couldn’t do it without your help!*
