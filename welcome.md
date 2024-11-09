@@ -46,6 +46,23 @@ Parentkind also provides resources to parents – practical guidance on supporti
 
 ## Charity registration
 
-Our registered charity number is *12090458 and our details can be found on the [Charity Commission website](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5243956/trustees).   
+Our registered charity number is *12090458 and our details can be found on the [Charity Commission website](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5243956/trustees).
+
+## Easyfundraising
+Collect free donations for All Saints every time you shop online at no extra cost to you! Simply sign up at [https://www.easyfundraising.org.uk/causes/allsaintsfulham/](https://www.easyfundraising.org.uk/causes/st-catherines-pta-littlehampton/) and a donation will be made to the school every time you shop through their website.
+
+## Donate
+If you’d like to make a one-off financial contribution, you can do this through our Justgiving page. Selecting Gift Aid will increase the value of your donation by 25% at no extra cost to you.
+
+[https://www.justgiving.com/xxxxxx](https://www.justgiving.com/xxxxxx)
+
+You can also make payments directly to our bank account:
+
+Account Name: xxxxx
+Sort Code: xx-xx-xx
+Account Number: xxxxxxxx
+
+## Match Funding Sponsor
+If you work for a bank, insurance company, utility provider or supermarket, your employer may be willing to match the money we raise on events, boosting our fundraising. Please get in touch if you can help us with this.
 
 [Go to the Home Page]({{ '/' | absolute_url }})  
