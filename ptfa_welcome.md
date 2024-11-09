@@ -29,4 +29,14 @@ All meetings are open and any member can come along to find out what the PTFA is
 The majority of funds are raised through events and activities we run throughout the year, as well as some ongoing fundraisers.  We also arrange events such as race nights, quiz nights etc. so look out for news! 
 *Donations from you, whether that be your time, money, cakes, raffle prizes etc. are critical in making these activities and events a success – we couldn’t do it without your help!*
 
+##Support from Parentkind
+
+Our PTA is a member of Parentkind, a membership organisation providing support and guidance to over 13,500 PTA’s.
+Being a member provides us with advice and support ensuring we run our PTA well according to good practice guidance, and our activities are properly insured, legal and safe.
+Parentkind also provides resources to parents – practical guidance on supporting your child(ren) throughout their school years. You can access a wealth of information on their website, or interesting chats and information on their Facebook page.
+
+##Charity registration
+
+Our registered charity number is *12090458 and our details can be found on the [Charity Commission website](https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5243956/trustees).   
+
 [Go to the Home Page]({{ '/' | absolute_url }})  
