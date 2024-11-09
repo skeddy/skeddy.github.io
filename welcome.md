@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Welcome
-permalink: /ptfa_welcome.html
-ref: demo
+permalink: /welcome.html
+ref: welcome
 order: 0
 ---
 
