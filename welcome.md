@@ -9,7 +9,7 @@ order: 0
 # A warm welcome to your PTFA
 
 We know you already have a lot to do when you join our school community but we wanted to introduce ourselves and give you some key information about the PTFA (that’s 
-Parent Teacher Freinds Association), how you can help us, and what’s in it for you.
+Parent Teacher Friends Association), how you can help us, and what’s in it for you.
 
 ## Who are we?
 
