@@ -8,29 +8,22 @@ order: 0
 
 ## Meet Our PTA Team
 
-| ![Person](https://elouwerse.nl/placecircle/150 "Person") | |
-|:------------------------------------------------------:|:--------------:|
-| **Name** | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
-| **Position** | |
-| ![Person](https://elouwerse.nl/placecircle/150 "Person") | |
-|:------------------------------------------------------:|:--------------:|
-| **Name** | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
-| **Position** | |
-| ![Person](https://elouwerse.nl/placecircle/150 "Person") | |
-|:------------------------------------------------------:|:--------------:|
-| **Name** | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
-| **Position** | |
-| ![Person](https://elouwerse.nl/placecircle/150 "Person") | |
-|:------------------------------------------------------:|:--------------:|
-| **Name** | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
-| **Position** | |
-| ![Person](https://elouwerse.nl/placecircle/150 "Person") | |
-|:------------------------------------------------------:|:--------------:|
-| **Name** | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
-| **Position** | |
-| ![Person](https://elouwerse.nl/placecircle/150 "Person") | |
-|:------------------------------------------------------:|:--------------:|
-| **Name** | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
-| **Position** | |
+| ![Person](https://elouwerse.nl/placecircle/150 "Person") <br>Name - Position | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
+|:--------:|:--------------------------------------------------------|
+
+| ![Person](https://elouwerse.nl/placecircle/150 "Person") <br>Name - Position | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
+|:--------:|:--------------------------------------------------------|
+
+| ![Person](https://elouwerse.nl/placecircle/150 "Person") <br>Name - Position | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
+|:--------:|:--------------------------------------------------------|
+
+| ![Person](https://elouwerse.nl/placecircle/150 "Person") <br>Name - Position | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
+|:--------:|:--------------------------------------------------------|
+
+| ![Person](https://elouwerse.nl/placecircle/150 "Person") <br>Name - Position | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
+|:--------:|:--------------------------------------------------------|
+
+| ![Person](https://elouwerse.nl/placecircle/150 "Person") <br>Name - Position | Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents. |
+|:--------:|:--------------------------------------------------------|
 
 [Go to the Home Page]({{ '/' | absolute_url }})  
