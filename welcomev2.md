@@ -6,7 +6,7 @@ ref: welcomev2
 order: 0
 ---
 
-# 🎉 A Warm (and Fun!) Welcome to Your PTFA 🎉
+# A Warm (and Fun!) Welcome to Your PTFA 🎉
 
 Hey there! First off, welcome to the wonderful community of St Catherine's Catholic Primary School. We know your to-do list is already as long as a roll of wrapping paper, so we’ll keep this fun, friendly, and to the point. Let’s introduce you to the magic of the PTFA (that’s the Parent Teacher Friends Association, but we won’t make you say it three times fast).
 
@@ -19,7 +19,7 @@ We’re a lively, creative bunch of volunteers with three big goals:
 2. **Bring people together**—because when school and home team up, great things happen.
 3. **Have a good time**—because life isn’t just about bake sales and raffles (though we do love a good raffle!).
 
-## What’s in It for You?
+## What’s in It for You? 😎
 
 - A chance to meet new people and make friends.
 - The warm, fuzzy feeling of making a real difference to your child’s school.
