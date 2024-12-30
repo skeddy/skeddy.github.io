@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
 /* New fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* New fonts */
 @import "blog";
 
@@ -38,7 +39,7 @@ body {
     /* Change the font name here */
     padding: 0;
     margin: 0;
-    font-family: 'Comfortaa', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: $body-text-color;
