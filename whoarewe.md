@@ -6,52 +6,63 @@ ref: whoarewe
 order: 0
 ---
 
-## Meet Our PTA Team
+# Meet Your PTFA Team!  
 
+Get to know the fantastic folks behind the scenes. We’re not just fundraising superheroes — we’re real people too! Check out some fun facts and quirky tidbits about each of us below.
+
+## Chairperson: Jane Smith  
 ![Person](https://elouwerse.nl/placecircle/150 "Person")
 
-**Name - Position**
+Jane is the fearless leader of the PTFA, with a passion for organizing and a knack for turning ideas into action.  
 
-Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents.
+**Fun Fact:** Jane once baked 200 cupcakes in a single day for a school fair—and still enjoyed eating one at the end! 
+
+**Quirky Question:** If you could be any animal, what would you be? Jane says, “Definitely a squirrel—always prepared, with a stash of snacks!”  
 
 ---
 
+## Vice-Chairperson: John Doe  
 ![Person](https://elouwerse.nl/placecircle/150 "Person")
 
-**Name - Position**
+John keeps the wheels turning, supporting the Chair and stepping in wherever he’s needed most.  
 
-Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents.
+**Fun Fact:** John ran his first marathon in a banana costume to raise money for the school! 
+
+**Quirky Question:** What’s your go-to karaoke song? John: “Don’t Stop Believin’—but only if no one’s recording!”  
 
 ---
 
+## Treasurer: Emily Green  
 ![Person](https://elouwerse.nl/placecircle/150 "Person")
 
-**Name - Position**
+Emily is the wizard of numbers, ensuring every penny raised is put to good use.  
 
-Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents.
+**Fun Fact:** Emily once won a math competition at age 10—and still uses that trophy as a paperweight! 
+
+**Quirky Question:** If you could travel back in time, where would you go? Emily: “The 1920s, for the jazz and the fashion!”  
 
 ---
 
+## Secretary: Tom Brown  
 ![Person](https://elouwerse.nl/placecircle/150 "Person")
 
-**Name - Position**
+Tom keeps the team organized and ensures no detail gets missed.  
 
-Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents.
+**Fun Fact:** Tom has a collection of over 100 different pens from around the world. 
+
+**Quirky Question:** If you could instantly master a new skill, what would it be? Tom: “Juggling! Because I’m already doing it metaphorically.”  
 
 ---
 
+## Event Coordinator: Sarah White  
 ![Person](https://elouwerse.nl/placecircle/150 "Person")
 
-**Name - Position**
+Sarah is the creative force behind our fantastic events, ensuring they’re fun for everyone.  
 
-Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents.
+**Fun Fact:** Sarah has an uncanny talent for guessing the number of jelly beans in a jar—she’s won three times! 
+
+**Quirky Question:** What’s your dream holiday destination? Sarah: “New Zealand, for the adventure and the views!”  
 
 ---
-
-![Person](https://elouwerse.nl/placecircle/150 "Person")
-
-**Name - Position**
-
-Name has been leading the PTA for over 3 years. He is passionate about creating a supportive and inclusive environment for students and parents.
 
 [Go to the Home Page]({{ '/' | absolute_url }})  
