@@ -17,7 +17,8 @@ Jane is the fearless leader of the PTFA, with a passion for organizing and a kna
 
 **Fun Fact:** Jane once baked 200 cupcakes in a single day for a school fair—and still enjoyed eating one at the end! 
 
-**Quirky Question:** If you could be any animal, what would you be? 
+**Quirky Question:** If you could be any animal, what would you be?
+
 _“Definitely a squirrel—always prepared, with a stash of snacks!”_
 
 ---
@@ -29,7 +30,8 @@ John keeps the wheels turning, supporting the Chair and stepping in wherever he�
 
 **Fun Fact:** John ran his first marathon in a banana costume to raise money for the school! 
 
-**Quirky Question:** What’s your go-to karaoke song? 
+**Quirky Question:** What’s your go-to karaoke song?
+
 _“Don’t Stop Believin’—but only if no one’s recording!”_
 
 ---
@@ -42,6 +44,7 @@ Emily is the wizard of numbers, ensuring every penny raised is put to good use.
 **Fun Fact:** Emily once won a math competition at age 10—and still uses that trophy as a paperweight! 
 
 **Quirky Question:** If you could travel back in time, where would you go?
+
 _“The 1920s, for the jazz and the fashion!”_
 
 ---
@@ -54,6 +57,7 @@ Tom keeps the team organized and ensures no detail gets missed.
 **Fun Fact:** Tom has a collection of over 100 different pens from around the world. 
 
 **Quirky Question:** If you could instantly master a new skill, what would it be?
+
 _“Juggling! Because I’m already doing it metaphorically.”_
 
 ---
@@ -66,6 +70,7 @@ Sarah is the creative force behind our fantastic events, ensuring they’re fun 
 **Fun Fact:** Sarah has an uncanny talent for guessing the number of jelly beans in a jar—she’s won three times! 
 
 **Quirky Question:** What’s your dream holiday destination?
+
 _“New Zealand, for the adventure and the views!”_
 
 ---
