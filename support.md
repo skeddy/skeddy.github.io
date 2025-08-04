@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Tech Support
-permalink: /support.html
-ref: support
-order: 0
+permalink: /support
+sidebar_home_link:  true
 ---
 
 ## If you've found this... you got a problem
@@ -79,5 +78,4 @@ TODO
 ## Example Image
 
 ![Edit edit edit](https://drive.google.com/thumbnail?id=1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl)
-
 

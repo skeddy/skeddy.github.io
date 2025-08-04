@@ -1,0 +1,8 @@
+nav_title: List tile
+navs:
+- title: Homepage
+  url: /
+- title: Who are we?
+  url: /about
+- title: Events Calendar
+  url: /events

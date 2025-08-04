@@ -1,37 +1,18 @@
-title: "skeddy.githib.io"
-description: "Under construction | June 2022"
-show_downloads: false
-
-baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-
-# cayman-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-cayman-blog:
-  date_format: "%a %b %d %Y"
-  # was: date_format: "%a - %b %-d - %Y"
-  # fuck knows why!!
-
-theme: # leave it empty
-
 # Dependencies
-# markdown: GFM
-# markdown: kramdown
+markdown:         kramdown
+highlighter:      rouge
 
-# social
-author: Skeddy
-# image: /thumbnail-jumbo.png
-image: /content/header.png
-twitter:
-  username: skeddy
-instagram:
-  username: skeddy
+# Setup
+title: Skeddys little support site
+description: Supporting you since... forever
 
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 plugins:
-  - jekyll-target-blank
+  - jekyll-feed
   - jekyll-gist
-  - jemoji
+  - jekyll-paginate
 
-target-blank:
-    rel: nofollow
-
-header_page_refs: ['home', 'support', 'events', 'welcome', 'whoarewe', 'welcomev2']
+# Sidebar link settings
+sidebar_home_link:  true

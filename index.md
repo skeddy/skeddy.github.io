@@ -1,8 +1,9 @@
 ---
 layout: home
 title: Homepage
-permalink: /index.html
+permalink: /
 ref: home
+sidebar_home_link:  true
 ---
 # Hello!
 

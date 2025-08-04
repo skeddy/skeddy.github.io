@@ -1,3 +1,2 @@
-source 'https://rubygems.org'
-gem 'jemoji'
+source "https://rubygems.org"
 gemspec
