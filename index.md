@@ -1,8 +1,7 @@
 ---
-layout: home
-title: Homepage
+layout: page
+title: Home
 permalink: /
-ref: home
 sidebar_home_link:  true
 ---
 # Hello!
@@ -27,4 +26,4 @@ So this *thing* exists for my own notes, and to give you the ability to do some 
 
 Apple/iOS support... sorry!
 
-![Nope!](/content/not.gif)
+![Nope!](/_content/not.gif)
