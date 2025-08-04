@@ -16,3 +16,9 @@ plugins:
 
 # Sidebar link settings
 sidebar_home_link:  true
+
+include:
+  - "_content"
+  - "_posts"
+  - "_data"
+
