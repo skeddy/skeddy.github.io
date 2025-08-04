@@ -2,7 +2,7 @@
 layout: page
 title: "Home"
 permalink: /
-sidebar_home_link:  true
+sidebar_link:  true
 ---
 
 # Hello!
