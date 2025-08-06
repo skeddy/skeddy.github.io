@@ -2,7 +2,7 @@
 layout: page
 title: Tech Support
 permalink: /support
-sidebar_home_link:  true
+sidebar_link:  true
 ---
 
 ## If you've found this... you got a problem
@@ -72,10 +72,3 @@ And if you do want to bung me a few quid here or there, then I'll point you in t
 TODO  
 
 *It's always TODO.... *
-
-[Go to the Home Page]({{ '/' | absolute_url }})  
-
-## Example Image
-
-![Edit edit edit](https://drive.google.com/thumbnail?id=1Ikj-AyAZXwrfqGTqHBppI1hsXLSQUxWl)
-
