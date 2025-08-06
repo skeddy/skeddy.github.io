@@ -2,7 +2,7 @@
 layout: page
 title: Tech Support
 permalink: /support
-sidebar_home_link:  true
+sidebar_link:  true
 ---
 
 ## If you've found this... you got a problem
