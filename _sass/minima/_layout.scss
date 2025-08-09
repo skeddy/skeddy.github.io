@@ -44,8 +44,7 @@
     }
   }
 
-/*   
-@include media-query($on-medium) {
+  @include media-query($on-medium) {
     position: absolute;
     top: 9px;
     right: $spacing-unit * 0.6;
@@ -69,32 +68,6 @@
       line-height: 0;
       padding-top: 18px;
       text-align: center;
- */
-
-@include media-query($on-medium) {
-  .site-nav {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit * 0.6;
-    background-color: $background-color;
-    border: 1px solid $border-color-01;
-    border-radius: 5px;
-  }
-
-  label[for="nav-trigger"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
-  }
-
-  .menu-icon {
-    // The .menu-icon styles are simplified here because flexbox handles the centering
-    width: 36px;
-    height: 36px;
-  }
 
       &::before {
         font-family: "Font Awesome 6 Free";
@@ -109,7 +82,7 @@
     #nav-trigger {
       ~ label[for=nav-trigger] .menu-icon {
         &::before {
-          content: "\f0c9";
+          // content: "\f0c9";
           font-size: 1.25em;
         }
       }
@@ -118,12 +91,12 @@
         display: none
       }
       &:checked {
-      ~ label[for=nav-trigger] .menu-icon {
-        &::before {
-          content: "\f00d";
-          font-size: 1.5em;
+        ~ label[for=nav-trigger] .menu-icon {
+          &::before {
+            content: "\f00d";
+            font-size: 1.5em;
+          }
         }
-      }
         ~ .nav-items {
           display: block;
           padding-bottom: 5px;
@@ -142,6 +115,7 @@
       line-height: $base-line-height;
     }
   }
+}
 
 /**
  * Site footer
