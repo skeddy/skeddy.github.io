@@ -36,22 +36,13 @@ body {
   flex: 0 0 auto;
   padding: $section-spacing;
 
-.centered-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.site-title {
-  /* font-family: 'Abril Fatface', serif; */
-  font-size: 1rem;
-  font-weight: normal;
-  margin-bottom: $heading-spacing;
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .site-title {
+    /* font-family: 'Abril Fatface', serif; */ 
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: $heading-spacing;
+    margin-top: 0;
+  }
 
   .site-title .back-arrow { margin-right: 0.5rem; }
 }
@@ -88,14 +79,6 @@ body {
   }
 }
 
-/* // New Mobile Fix: Show secondary nav content + lead
-#sidebar {
-  header ~ *,
-  p.lead {
-    display: block !important;
-  }
-} */
-
 // Make header elements blend into sidebar / background
 .container > header {
   background: transparent;
@@ -117,7 +100,7 @@ body {
 }
 
 /* -----------------------------------------------------------
-  Mobile view for home page)
+  Mobile view for home page
 ----------------------------------------------------------- */
 
 .home #sidebar {
@@ -127,7 +110,7 @@ body {
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 40px;
   }
 
   // Show secondary nav content + lead
@@ -198,7 +181,7 @@ body {
     }
 
     .site-title {
-      font-size: 3.25rem;
+      font-size: 40px;
       .back-arrow { display: none; }
     }
 
