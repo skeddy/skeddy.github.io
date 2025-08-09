@@ -1,2 +1,26 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-header {
+  text-align: center; /* Center-align the entire header content */
+}
+
+.site-title {
+  display: block; /* Make the title a block-level element to take up its own line */
+  margin-bottom: 1em; /* Add some space below the title */
+}
+
+.site-nav {
+  display: flex; /* Use Flexbox for easy horizontal alignment of the links */
+  justify-content: center; /* Center the links within the navigation bar */
+  gap: 1em; /* Add some space between the navigation links */
+  padding: 0;
+  list-style: none; /* Remove any list-style markers if you were using a list */
+}
+
+.page-link {
+  /* Add styling for individual links here */
+  text-decoration: none; /* Remove the default underline */
+  color: #333; /* Set a color for the links */
+  font-weight: bold;
+}
