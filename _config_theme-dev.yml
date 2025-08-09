@@ -14,6 +14,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+include:
+  - "_content"
+  
 sass:
   quiet_deps: true
   silence_deprecations: [import]
@@ -51,9 +54,9 @@ minima:
   #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   #     * url      Full URL of social profile.
   social_links:
-    - title: Minima Theme repository at GitHub
+    - title: L1
       icon: github
       url: "https://github.com/jekyll/minima"
-    - title: Jekyll at X (formerly Twitter)
+    - title: L2
       icon: x-twitter
       url: "https://x.com/jekyllrb"
