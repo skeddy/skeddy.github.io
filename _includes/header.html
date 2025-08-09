@@ -9,8 +9,7 @@
   <div>
 {% for page in site.pages %}
     <div class="item">
-      <h3>{{page.title}}</h3>
-      <p>{{page.description}}</p>
+      <a class="nav-item" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
     </div>
 {% endfor %}
   </div>
