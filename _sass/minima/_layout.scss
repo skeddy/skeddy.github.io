@@ -70,7 +70,7 @@
       text-align: center;
 
       &::before {
-        font-family: "Font Awesome 6 Free";
+        font-family: "Font Awesome 7 Free";
         font-weight: 900;
       }
 
@@ -82,7 +82,7 @@
     #nav-trigger {
       ~ label[for=nav-trigger] .menu-icon {
         &::before {
-          // content: "\f0c9";
+          content: "\f0c9";
           font-size: 1.25em;
         }
       }
