@@ -1,21 +1,41 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+title: Long Haul
+description: Long Form Jekyll theme built with SASS
 
-# Setup
-title: Skeddys little support site
-description: Supporting you since... forever
+url: https://long-haul.netlify.app
+# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+baseurl: # Ex: /project-page
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+# Header Option
+# header: large
 
-# Sidebar link settings
-sidebar_home_link:  true
+sass:
+    style: compressed
 
-include:
-  - "_content"
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+    - title: Home
+      url: /index.html
+    - title: About
+      url: /about
+    - title: Contact
+      url: /contact
+
+social:
+    github: brianmaierjr
+    twitter: brianmaierjr
+    facebook: brianmaierjr
+    email: brimaidesigns@gmail.com
+    linkedin: brianmaierjr
+    youtube: RickAstleyYT
+    tumblr: i-am-a-fish
+
+google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: brianmaierjr
