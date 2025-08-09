@@ -1,4 +1,7 @@
-title: Skeddys Support Webside
+markdown:         kramdown
+highlighter:      rouge
+
+title: Skeddys Support Website
 author:
   name: Rob
   email: why_are_you_looking@here.com
@@ -14,8 +17,8 @@ paginate:         5
 
 plugins:
 #  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-gist
+#  - jekyll-feed
+#  - jekyll-gist
   - jekyll-paginate
 
 include:
