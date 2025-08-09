@@ -135,20 +135,6 @@ body {
 ----------------------------------------------------------- */
 
 @media (min-width: $large-breakpoint) {
-  body {
-    flex-direction: row;
-    min-height: 100vh;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: auto;
-
-    > * {
-      -webkit-overflow-scrolling: touch;
-      overflow-y: auto;
-    }
-  }
-
-  /* Undo mobile CSS */
-
   #sidebar,
   .home #sidebar {
     text-align: left;
@@ -161,6 +147,13 @@ body {
 
   #sidebar {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebar-width;
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
 
     // Attach to bottom or top of window
     @if $sidebar-sticky {
