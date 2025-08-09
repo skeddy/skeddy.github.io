@@ -1,18 +1,22 @@
-title: Your awesome title
+title: Skeddys Support Webside
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Rob
+  email: why_are_you_looking@here.com
 
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Supporting you since... forever.
 
 theme: minima
 
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
 plugins:
+#  - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate
 
 include:
   - "_content"
@@ -37,7 +41,8 @@ minima:
   #   the `path` property (as represented via Liquid) of the pages in the order they
   #   should be rendered.
   nav_pages:
-    - about.md
+    - index.md
+    - support.md
 
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: false
