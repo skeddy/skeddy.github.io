@@ -19,7 +19,7 @@ plugins:
 #  - jekyll-seo-tag
 #  - jekyll-feed
 #  - jekyll-gist
-  - jekyll-paginate
+#  - jekyll-paginate
 
 include:
   - "_content"
