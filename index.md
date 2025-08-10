@@ -3,6 +3,10 @@ layout: page
 title: "Home"
 permalink: /
 sidebar_link:  true
+feature_text: |
+  ## Skeddys Support Website
+  Supporting you since... forever
+feature_image: "/assets/header_image.jpg"
 ---
 
 # Hello!
