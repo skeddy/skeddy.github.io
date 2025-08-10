@@ -97,7 +97,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Skeddys Support Website" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo@53px.png" # Site logo, also used in jekyll-seo-tag
 description: "My little section of the web that I use to share stuff that I need to remember or is helpful!" # Site description and default description, also used in jekyll-seo-tag
 url: "https://skeddysupport.uk/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
