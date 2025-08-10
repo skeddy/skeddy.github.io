@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Home"
 permalink: /
 sidebar_link:  true
 feature_text: |

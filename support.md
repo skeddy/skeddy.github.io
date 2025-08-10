@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Tech Support
-permalink: /support
+permalink: /
 sidebar_link:  true
+feature_text: |
+  ## Support
+  If you've found this... you got a problem
+feature_image: "/assets/header_image.jpg"
 ---
-
-## If you've found this... you got a problem
+## Begin red fade....
 
 In 1972, a crack commando unit was sent to prison by a military court for a crime they didn't commit.  
 
