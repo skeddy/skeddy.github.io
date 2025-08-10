@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Home"
 permalink: /
 sidebar_link:  true

@@ -1,373 +1,286 @@
-> [!WARNING]
-> **The `master` branch is under active development towards a semver-major release with non-backwards-compatible changes.**
-> 
-> While you may use this theme in the current state either via the `jekyll-remote-theme` plugin or via a Gemfile, it is
-> recommended to point to a particular git ref that does not break your site's existing render and gradually update to a
-> newer git ref via a pull request after consulting this repository's commit-log and README.
->
-> **Pointing directly to the `HEAD` commit of the `master` branch is risky and may contain changes that break your site.** 
->
-> Example of pointing to a particular git ref via `jekyll-remote-theme` plugin:
-> ```yaml
-> # _config.yml
->
-> remote_theme: "jekyll/minima@1e8a445"
-> ```
-> Example of pointing to a particular git ref via `Gemfile` (with `theme: minima` in `_config.yml`)
-> ```ruby
-> # Gemfile
->
-> gem "minima", github: "jekyll/minima", ref: "1e8a445"
-> ```
+# [Alembic](https://alembic.darn.es/)
+[![Gem Version](https://badge.fury.io/rb/alembic-jekyll-theme.svg)](https://badge.fury.io/rb/alembic-jekyll-theme)
 
-<br/><br/>
+⚗ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website.
 
-<div align="center">
-  <p><em><strong>Disclaimer:</strong> The information here may vary depending on the version you're using.<br/>
-  Please refer to the <code>README.md</code> bundled within the theme-gem for information specific to your version or by pointing
-  your browser to the Git tag corresponding to your version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md.<br/>
-  Running <code>bundle show minima</code> will provide you with the local path to your current theme version.</em></p>
-  <img src="/readme_banner.svg"/>
-  <p>It's Jekyll's default (and first) theme. It's what you get when you run <code>jekyll new</code>.</p>
-  <p><a href="https://jekyll.github.io/minima/">Theme preview</a></p>
-  <p><img src="/screenshot.png"/></p>
-</div>
+![Screenshot](https://raw.githubusercontent.com/daviddarnes/alembic/master/screenshot.png)
+
+[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
+
+## Contents
+- [About](#about)
+- [Features](#features)
+- [Examples](#examples)
+- [Installation](#installation)
+- [Customising](#customising)
+- [Configuration](#configuration)
+  - [Gem dependency settings](#gem-dependency-settings)
+  - [Site settings](#site-settings)
+  - [Site performance settings](#site-performance-settings)
+  - [Site navigation](#site-navigation)
+  - [Custom fonts](#custom-fonts)
+- [Using includes](#using-includes)
+- [Page layouts](#page-layouts)
+- [Page and Post options](#page-and-post-options)
+- [Credits](#credits)
+
+## About
+
+**Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate theme is designed to get rolling immediately. Install it, configure it, tweak it, push it.**
+
+## Features
+
+- Available as a **theme gem** and **GitHub Pages** theme
+- Clear and elegant design that can be used out of the box or as solid starting point
+- Tested in all major browsers, including **IE and Edge**
+- Built in **Service Worker** so it can work offline and on slow connections
+- **Configurable colours** and typography in a single settings file
+- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
+- Solid **typographic framework** from [Sassline](https://sassline.com/)
+- Configurable navigation via a single file
+- Modular Jekyll components
+- Post category support in the form of a single post index page grouped by category
+- Built in live search using JavaScript
+- **Contact form** built in using [Formspree](https://formspree.io/) or [Netlify Forms](https://www.netlify.com/features/#forms)
+- Designed with **[Siteleaf](http://www.siteleaf.com/)** in mind
+- Has 9 of the most popular networks as performant sharing buttons
+- Has documentation
+
+## Examples
+
+Here are a few examples of Alembic out in the wild being used in a variety of ways:
+
+- [billmei.net](https://billmei.net/)
+- [bawejakunal.github.io](https://bawejakunal.github.io/)
+- [case2111.github.io](https://case2111.github.io/)
+- [karateca.org](https://www.karateca.org/)
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+### Quick setup
 
-```ruby
-gem "minima"
+To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
+
+- Vanilla Jekyll starter kit:
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
+- Forestry starter kit:
+  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll)
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-forestry-kit)
+- Netlify CMS starter kit:
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-netlifycms-kit&stack=cms)
+
+- GitHub Pages with remote theme kit - **[Download kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+- Stackbit starter kit:
+  [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic-stackbit-kit)
+
+### As a Jekyll theme
+
+1. Add `gem "alembic-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
+2. Run the command `bundle install` in the root of project to install the theme and its dependancies
+3. Add `theme: alembic-jekyll-theme` to your `_config.yml` file to set the site theme
+4. Run `bundle exec jekyll serve` to build and serve your site
+5. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+
+### As a GitHub Pages remote theme
+
+1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
+2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
+3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
+4. Add `remote_theme: daviddarnes/alembic@main` to your `_config.yml` file to set the site theme
+5. Run `bundle exec jekyll serve` to build and serve your site
+6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+
+### As a Boilerplate / Fork
+
+_(deprecated, not recommended)_
+
+1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
+2. Replace the `Gemfile` with one stating all the gems used in your project
+3. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
+4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
+5. Run `bundle exec jekyll serve` to build and serve your site
+6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+
+## Customising
+
+When using Alembic as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
+
+To add your own styles copy the [`styles.scss`](https://github.com/daviddarnes/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
+
+If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings.
+
+## Configuration
+
+There are a number of optional settings for you to configure. Use the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file in the repo and use the documentation below to configure your site:
+
+### Gem dependency settings
+
+`twitter`, `author` and `social` values will need to be changed to the projects' social information or removed. Look for the `Gem settings` comment within the `/_config.yml` file. These values are for the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) - follow the link to find out more.
+
+### Site settings
+
+You'll need to change the `description`, `title` and `url` to match with the project. You'll also need to replace the logos, default social and default offline images in the `/assets/` directory with your own graphics. Setting the site language can be done with `lang`, the theme will default to `en-US`. The `email` needs to be changed to the email you want to receive contact form enquires with. The `disqus` value can be changed to your project username on [Disqus](https://disqus.com), remove this from the `/_config.yml` file if you don't want comments enabled. Look for the `Site settings` comment within the `/_config.yml` file. The `repo` setting is optional, for now, and can be removed entirely, if you wish.
+
+Google Analytics can be enabled via the site configuration too. Add your tracking ID to the `/_config.yml` file in the following method: `google_analytics: 'UA-XXXXXXXX-1'`. By default all IPs of site visitors are anonymous to maintain a level of privacy for the audience. If you wish to turn this off set the `google_analytics_anonymize_ip` key to `false`.
+
+Date format can be customised in the `/_config.yml` with the option `date_format` (please refer to Liquid date filters documentation for learning about formatting possibilities). Only placeholder formatting is supported, do not try to use ordinal dates introduced in Jekyll 3.8.
+
+The `short_name` option within `/_config.yml` is to add a custom name to the site's web application counterpart. When the website is added to a device this name will appear alonside the app icon. The short name will default to the site title if this isn't set.
+
+### Site performance settings
+
+Alembic comes with a couple of options to enhance the speed and overall performance of the site you build upon it.
+
+By default the built in Service Worker is enabled, and will work on a 'network first' method. Meaning if there's no internet connection the content the Service Worker has cached will be used until the connection comes back. It will always look for a live version of the code first. To disable the Service Worker add an option called `service_worker` with a value of `false` in the `/_config.yml` file.
+
+Another option to speed up Alembic is to enable inline CSS, which is off by default. You can enable this by setting `css_inline: true` inside your `/_config.yml` file. By switching to inline styles you bypass the use `/assets/styles.scss`, any custom styles will need to be added in `/_includes/site-styles.html` or in a new custom file.
+
+Please note that these options aren't a "silver bullet" for making your site faster, make sure to audit and debug your site to get the best performance for your situation.
+
+### Site navigation
+
+There are a total of 4 different navigation types:
+
+- `navigation_header`: The links shown in the header (it is also used on the 404 page)
+- `navigation_footer`: The links shown in the footer
+- `social_links`: The social icon links that are shown in the sidebar
+- `sharing_links`: The social sharing buttons that are shown at the bottom of blog posts
+
+All navigations can be edited using the `_config.yml` file. To see example usage either look for the `Site navigation` comment within the `/_config.yml` file or see [the nav-share.html include](#nav-sharehtml).
+
+If there are no items for the `navigation_header` or `navigation_footer`, they will fallback to a list of pages within the site. The `social_navigation` properties should either be one that is already in the list (so `Twitter` or `Facebook`) or a regular `link`, this is so an icon can be set for the link.
+
+### Custom fonts
+
+Alembic comes with custom fonts served from Google fonts. By default it requests Merriweather but this can be any font from any provider assuming it supports requesting fonts in the same manner and does not require javascript.
+
+This can be configured under the `custom_fonts` key.
+
+- `urls`: The urls supplied to you from your font provider (eg https://fonts.googleapis.com/css2?family=Merriweather). For best performance try to use as few urls as possible
+- `preconnect`: (optional) If your font provider serves the font files from another domain it can be useful to make a connection to that domain in advance. For example google load the font files from fonts.gstatic.com. This can be omitted if not required
+
+If you want to customise this further you can find the include for custom fonts in `_includes/site-custom-fonts.html`.
+
+## Using includes
+
+There are 2 main types of includes: ones designed for the site and ones that are designed as shortcodes. Here are a list of the shortcode includes:
+
+### `button.html`
+A button that can link to a page of any kind.
+
+Example usage: `{% include button.html text="I'm a button" link="https://david.darn.es" %}`
+
+Available options:
+- `text`: The text of the button _required_
+- `link`: The link that the button goes to _required_
+- `icon`: The icon that is added to the end of the button text
+- `color`: The colour of the button
+
+### `figure.html`
+An image with optional caption.
+
+Example usage: `{% include figure.html image="/uploads/feature-image.jpg" caption="Check out my photo" %}`
+
+Available options:
+- `image`: The image shown _required_
+- `caption`: A caption to explain the image
+- `position`: The position of the image; `left`, `right` or `center`
+- `width` & `height`: Optional width and height attributes of the containing image
+
+### `icon.html`
+An icon.
+
+Example usage: `{% include icon.html id="twitter" %}`
+
+Available options:
+- `id`: The reference for the icon _required_
+- `title`: The accessible label for the icon
+- `color`: The desired colour of the icon
+- `width` & `height`: Width and height attributes for the icon, default is `16`
+
+### `nav-share.html`
+A set of buttons that share the current page to various social networks, which is controlled within the `_config.yml` file under the `sharing_links` keyword.
+
+Example usage: `{% include nav-share.html %}`
+
+Available options:
+``` yml
+Twitter: "#1DA1F2"
+facebook: "#3B5998"
+Pinterest: "#BD081C"
+LinkedIn: "#0077B5"
+tumblr: "#36465D"
+Reddit: "#FF4500"
+HackerNews: "#ff6600"
+DesignerNews: "#2D72D9"
+Email: true
 ```
 
-And then execute:
+_The first item is the name of the network (must be one of the ones stated above) and the second is the colour of the button. To remove a button remove the line of the same name._
 
-    $ bundle
+### `video.html`
+A YouTube video.
 
+Example usage: `{% include video.html id="zrkcGL5H3MU" %}`
 
-## Contents At-A-Glance
+Available options:
+- `id`: The YouTube ID for the video _required_
 
-Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
+### `map.html`
+A Google map. _See Google [My Maps](https://www.google.com/mymaps)_
 
-### Layouts
+Example usage: `{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" %}`
 
-Refers to files within the `_layouts` directory, that define the markup for your theme.
+Available options:
+- `id`: The map ID for the map _required_
 
-  - `base.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their
-    contents into this file at the line that says ` {{ content }} ` and are linked to this file via
-    [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: base`.
-  - `home.html` &mdash; The layout for your landing-page / home-page / index-page. [[More Info.](#home-layout)]
-  - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
-  - `post.html` &mdash; The layout for your posts.
+### `site-form.html`
+Adds a contact form to the page. This can be used with [Formspree](https://formspree.io/) or [Netlify Forms](https://www.netlify.com/docs/form-handling/) depending on your setup.
 
-#### Base Layout
+Example usage: `{% include site-form.html %}`
 
-From Minima v3 onwards, the base layout is named **`base.html`** instead of `default.html` to avoid confusing new users into
-assuming that name holds special status.
+Available options:
+- `netlify_form=true`: Set whether you would like to use Netlify Forms, otherwise the form will default to Formspree
+- `name`: Give the form a name, by default the form is called "Contact". The name will be reflected when form submissions come through in Netlify or in your email client. The name is also used in the label and input elements for accessibility
 
-Users migrating from older versions with customized `_layouts/default.html` are advised to rename their copy to
-`_layouts/base.html`. Migrating users with additional customized layouts may either update front matter references to former
-`default.html` layout or create a new `default.html` layout referencing the current `base.html`, whichever route being the
-easiest:
 
-```
----
-# new `_layouts/default.html` for backwards-compatibility when multiple
-# layouts have been customized.
+Use the `email` option in the `/_config.yml` to change to the desired email.
 
-layout: base
----
+### `site-search.html`
+Adds a search form to the page.
 
-{{ content }}
-```
+Example usage: `{% include site-search.html %}`
 
-#### Home Layout
+This include has no options. This include will add a block of javascript to the page and javascript reference in order for the search field to work correctly.
 
-`home.html` is a flexible HTML layout for the site's landing-page / home-page / index-page. <br/>
+### `site-before-start.html` & `site-before-end.html`
+Optional html includes for adding scripts, css, js or any embed code you wish to add to every page without the need to overwrite the entire `default.html` template.
 
-##### *Main Heading and Content-injection*
+**Example usage:** These are different to other includes as they are designed to be overwritten. If you create a `site-before-start.html` file in the `_includes/` the contents of the file will be included immediately before the closing `</head>` tag. If you create a `site-before-end.html` file the contents of the file will be included immediately before the closing `</body>` tag.
 
-From Minima v2.2 onwards, the *home* layout will inject all content from your `index.md` / `index.html` **before** the **`Posts`** heading. This will allow you to include non-posts related content to be published on the landing page under a dedicated heading. *We recommended that you title this section with a Heading2 (`##`)*.
+## Page layouts
 
-Usually the `site.title` itself would suffice as the implicit 'main-title' for a landing-page. But, if your landing-page would like a heading to be explicitly displayed, then simply define a `title` variable in the document's front matter and it will be rendered with an `<h1>` tag.
+As well as `page`, `post`, `blog`, there are a few alternative layouts that can be used on pages:
 
-##### *Post Listing*
+- `categories`: Shows all posts grouped by category, with an index of categories in a left hand sidebar
+- `search`: Adds a search field to the page as well as a simplified version of the sidebar to allow more focus on the search results
 
-This section is optional from Minima v2.2 onwards.<br/>
-It will be automatically included only when your site contains one or more valid posts or drafts (if the site is configured to `show_drafts`).
+## Page and Post options
 
-The title for this section is `Posts` by default and rendered with an `<h2>` tag. You can customize this heading by defining a `list_title` variable in the document's front matter.
+There are some more specific options you can apply when creating a page or a post:
 
+- `aside: true`: Adds a sidebar to the page or post, this is false by default and will not appear
+- `comments: false`: Turns off comments for that post
+- `feature_image: "/uploads/feature-image.jpg"`: Adds a full width feature image at the top of the page
+- `feature_text: "Example text"`: Adds text to the top of the page as a full width feature with solid colour; supports markdown. This can be used in conjunction with the `feature_image` option to create a feature image with text over it
+- `indexing: false`: Adds a `noindex` meta element to the `<head>` to stop crawler bots from indexing the page, used on the 404 page
 
-### Includes
+> **Note:** The Post List Page options are actually in the collection data within the `_config.yml` file.
 
-Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
+## Credits
 
-  - `comments.html` &mdash; Markup to render comments (via Disqus; active only when Jekyll environment is set to `production`).
-  - `footer.html` &mdash; Defines the site's footer section.
-  - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
-  - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
-  - `custom-head.html` &mdash; Placeholder to allow users to add more metadata to `<head />`.
-  - `header.html` &mdash; Defines the site's main header section that consists of the site's *title* and *navigation*.
-  - `nav-items.html` &mdash; Contains the logic and markup to render individual link items for the site's navigation.
-  - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file using
-    the latest version of Font Awesome Free webfonts via remote CDN.
-  - `sub-footer.html` &mdash; Placeholder to allow inserting markup (e.g. deferred scripts) before the `</body>` tag.
-
-
-### Sass
-
-Refers to `.scss` files within the `_sass` directory that define the theme's styles.
-
-  - `minima/skins/classic.scss` &mdash; The "classic" skin of the theme. *Used by default.*
-  - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
-    It imports the following components (in the following order):
-    - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
-    - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
-    - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
-    - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles defined above. (*Note: Cannot override variables*)
-
-Refer the [skins](#skins) section for more details.
-
-
-### Assets
-
-Refers to various asset files within the `assets` directory.
-
-  - `assets/css/style.scss` &mdash; Imports sass files from within the `_sass` directory and gets processed into the theme's
-    stylesheet: `assets/css/styles.css`.
-  - `assets/minima-social-icons.html` &mdash; Imports enabled social-media icon graphic and gets processed into a composite SVG file.
-    Refer [section on social networks](#social-networks) for its usage.
-
-
-### Plugins
-
-Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag#usage) to know how to set it up.
-
-
-## Usage
-
-Have the following line in your config file:
-
-```yaml
-theme: minima
-```
-
-
-### Customizing templates
-
-To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
-e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
-
-The site's default CSS has now moved to a new place within the gem itself, [`assets/css/style.scss`](assets/css/style.scss).
-
-In Minima 3.0, if you only need to customize the colors of the theme, refer to the subsequent section on skins. To have your
-*CSS overrides* in sync with upstream changes released in future versions, you can collect all your overrides for the Sass
-variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
-placed at path `_sass/minima/custom-styles.scss`.
-
-You need not maintain entire partial(s) at the site's source just to override a few styles. However, your stylesheet's primary
-source (`assets/css/style.scss`) should contain the following:
-
-  - Front matter dashes at the very beginning (can be empty).
-  - Directive to import a skin.
-  - Directive to import the base styles (automatically loads overrides when available).
-
-Therefore, your `assets/css/style.scss` should contain the following at minimum:
-
-```sass
----
----
-
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
-```
-
-#### Skins
-
-Minima 3.0 supports defining and switching between multiple color-palettes (or *skins*).
-
-```
-.
-├── minima.scss
-└── minima
-    └── _syntax-highlighting.scss
-```
-
-
-A skin is a Sass file placed in the directory `_sass/minima/skins` and it defines the variable defaults related to the "color"
-aspect of the theme. It also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and
-has to be adjusted in harmony with the current skin.
-
-The default color palette for Minima is defined within `_sass/minima/skins/classic.scss`. To switch to another available skin,
-simply declare it in the site's config file. For example, to activate `_sass/minima/skins/dark.scss` as the skin, the setting
-would be:
-
-```yaml
-minima:
-  skin: dark
-```
-
-As part of the migration to support skins, some existing Sass variables have been retired and some **have been redefined** as
-summarized in the following table:
-
-Minima 2.0      | Minima 3.0
---------------- | ----------
-`$brand-color`  | `$link-base-color`
-`$grey-*`       | `$brand-*`
-`$orange-color` | *has been removed*
-
-##### Available skins
-
-Skin setting    | Description
---------------- | -----------
-classic         | Default, light color scheme.
-dark            | Dark variant of the classic skin.
-auto            | *Adaptive skin* based on the default classic and dark skins.
-solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
-solarized-light | Light variant of solarized color scheme.
-solarized-dark  | Dark variant of solarized color scheme.
-
-*:bulb: Adaptive skins switch between the "light" and "dark" variants based on the user's operating system setting or browser setting
-(via CSS Media Query [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)).*
-
-### Customize navigation links
-
-This allows you to set which pages you want to appear in the navigation area and configure order of the links.
-
-For instance, to only link to the `about` and the `portfolio` page, add the following to your `_config.yml`:
-
-```yaml
-minima:
-  nav_pages:
-    - about.md
-    - portfolio.md
-```
-> [!WARNING]
-> Please note that **`site.header_pages`** is **`site.minima.nav_pages`** in Minima 3.0
-
-
-### Change default date format
-
-You can change the default date format by specifying `site.minima.date_format`
-in `_config.yml`.
-
-```
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-```
-
-
-### Extending the `<head />`
-
-You can *add* custom metadata to the `<head />` of your layouts by creating a file `_includes/custom-head.html` in your source directory. For example, to add favicons:
-
-1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
-2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
-
-
-### Enabling comments (via Disqus)
-
-Optionally, if you have a Disqus account, you can render a comments section below each post with the following configuration:
-
-```yaml
-url: "https://my_domain.com"
-disqus:
-  shortname: my_disqus_shortname
-```
-
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
-
-Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
-
-If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that
-post's YAML Front Matter.
-
-### Author Metadata
-
-From `Minima-3.0` onwards, `site.author` is expected to be a mapping of attributes instead of a simple scalar value:
-
-```yaml
-author:
-  name: John Smith
-  email: "john.smith@foobar.com"
-```
-
-To migrate existing metadata, update your config file and any reference to the object in your layouts and includes as summarized below:
-
-Minima 2.x    | Minima 3.0
-------------- | -------------------
-`site.author` | `site.author.name`
-`site.email`  | `site.author.email`
-
-
-### Social networks
-
-You can add links to the accounts you have on other sites, with respective icon as an SVG graphic, via the config file.
-From `Minima-3.0` onwards, the social media data is sourced from config key `minima.social_links`. It is a list of key-value pairs, each entry
-corresponding to a link rendered in the footer. For example, to render links to Jekyll GitHub repository and Twitter account (now X), one
-should have:
-
-```yaml
-minima:
-  social_links:
-    - title: Jekyll repository at GitHub
-      icon: github
-      url: "https://github.com/jekyll/jekyll"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
-```
-
-where `title` corresponds to the link-title displayed when a visitor hovers mouse-pointer over url / icon and
-`icon` refers to the Font Awesome icon id. e.g. `github` corresponds to `fa-github`.
-
-Social platform icons are rendered using the latest version of Font Awesome Free webfonts sourced via remote CDN.
-The full list of available social icons can be found at https://fontawesome.com/search?ic=brands
-
-> [!NOTE]
-> The link to your site's main syndication feed is always rendered as the last item of the social-links list.<br />
-> You may opt to not have this link rendered at all by setting config **`minima.hide_site_feed_link`** to `true`:
-> ```yaml
-> minima:
->   hide_site_feed_link: true  # `false` or `null` by default
-> ```
-
-### Enabling Google Analytics
-
-To enable Google Analytics, add the following lines to your Jekyll site:
-
-```yaml
-google_analytics: G-NNNNNNNNNN  // The former `UA-NNNNNNNN-N` format is no longer supported by Google
-```
-
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`.
-
-### Enabling Excerpts on the Home Page
-
-To display post-excerpts on the Home Page, simply set `show_excerpts` under top-level key `minima` to `true` in your
-`_config.yml`:
-
-```yaml
-minima:
-  show_excerpts: true
-```
-
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `script/bootstrap`.
-
-To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+- Thanks to [Simple Icons](https://simpleicons.org/) for providing the brand icons, by [Dan Leech](https://twitter.com/bathtype)
+- Thanks to [Sassline](https://sassline.com/) for the typographic basis, by [Jake Giltsoff](https://twitter.com/jakegiltsoff)
+- Thanks to [Flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) by [Brian Franco](https://twitter.com/brianfranco)
+- Thanks to [Normalize](https://necolas.github.io/normalize.css/) by [Nicolas Gallagher](https://twitter.com/necolas) and [Jonathan Neal](https://twitter.com/jon_neal).
+- Thanks to [pygments-css](http://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)
