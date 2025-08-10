@@ -1,14 +1,13 @@
 ---
 layout: page
 permalink: /
+title: Hello!
 sidebar_link:  true
 feature_text: |
   ## Skeddys Support Website
   Supporting you since... forever
 feature_image: "/assets/header_image.jpg"
 ---
-
-# Hello!
 
 Welcome to my slightly but not often updated little space on the web!
 
