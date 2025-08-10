@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /
-title: Hello!
+title: home
 sidebar_link:  true
 feature_text: |
   ## Skeddys Support Website

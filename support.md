@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /
-title: Begin red fade....
+permalink: /support
+title: support
 sidebar_link:  true
 feature_text: |
   ## Support
