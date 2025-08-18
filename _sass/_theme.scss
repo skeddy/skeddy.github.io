@@ -465,19 +465,25 @@ pre code {
   padding: $subtitlePadding !important;
   display: inline-block !important;
   border-radius: 0.25rem;
-  font-family: $subtitleFont;
-  font-size: 1rem;
-  line-height: 1.4;
+
+  // Typography control
+  font-family: $subtitleFont !important;
+  font-size: 1.25rem !important;   // tweak size
+  font-weight: 700 !important;     // bold
+  line-height: 1.4 !important;
   text-align: center;
+
+  // Strip markdownify <p>
   margin: 0 !important;
   border: none !important;
   box-shadow: none !important;
 
-  /* Fix uneven spacing from markdown paragraphs */
+  // If a <p> sneaks in, neutralize it
   p {
     margin: 0 !important;
     padding: 0 !important;
-    line-height: inherit !important;
     display: inline !important;
+    font: inherit !important;   // inherits from .subtitle
+    color: inherit !important;
   }
 }
