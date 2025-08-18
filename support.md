@@ -3,11 +3,11 @@ layout: page
 permalink: /support
 title: support
 sidebar_link:  true
-feature_text: |
-  ## Support
-  If you've found this... you got a problem
+feature_text: # Support
 feature_image: "/assets/header_image.jpg"
 ---
+
+##  If you've found this... you got a problem
 
 In 1972, a crack commando unit was sent to prison by a military court for a crime they didn't commit.  
 

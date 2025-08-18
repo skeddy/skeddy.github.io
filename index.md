@@ -3,12 +3,11 @@ layout: page
 permalink: /
 title: home
 sidebar_link:  true
-feature_text: |
-  ## Skeddys Support Website
-  Supporting you since... forever
+feature_text: # Skeddys Support Website
 feature_image: "/assets/header_image.jpg"
 ---
 
+## Welcome! 
 Welcome to my slightly but not often updated little space on the web!
 
 I'm a technical analyst by day, gamer/tech support at night (and sometimes during the day).
