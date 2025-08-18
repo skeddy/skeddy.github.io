@@ -4,7 +4,7 @@ permalink: /
 title: home
 sidebar_link:  true
 feature_text: | 
-# Skeddys Support Website
+    ## Skeddys Support Website
 feature_image: "/assets/header_image.jpg"
 ---
 
