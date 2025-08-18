@@ -10,53 +10,68 @@ feature_image: "/assets/header_image.jpg"
 
 ##  If you've found this... you got a problem
 
-In 1972, a crack commando unit was sent to prison by a military court for a crime they didn't commit.  
+One of the main issues I've seen in recent years, has been where Windows Updates are not getting installed correctly. 
 
-In 1980, the guy writing this was spat out onto this world.  
+Windows then gets confused and can't recall what it should or shouldn't install, and ends up looping through the same update over and over. 
 
-The men from 1972 promptly escaped from a maximum security stockade to the Los Angeles underground.  
+So there's a coupple of things you can do here right off the bat.
 
-Me? I just grew up, took things in, got inquisitive and grew into a person that liked to prod and poke technology to see if it worked.  
+## 1. Clear the windows event log
 
-Eventually, I wound up in a job that helped me with my professional career, while benefiting my personal interests.  
+Purge the whole thing, once you've had a look and determined that there's no other sort of issue.
 
-Today, still wanted by the government the guys from 1972 survive as soldiers of fortune.  
-
-But... If you have a problem, if no one else can help, and if you can find me....maybe I'll get your PC issue sorted so you don't have to call these old guys from '72 or worse.... argue with some turd at Currys/PC World.  
-
-## What's here?
-
-I'll break this page into three parts:  
-
-* Fast Fix Scenarios (FFS)  
-* If I've helped... 
-* Deeper background into the FFS above...  
-
-## Fast Fix Scenarios (FFS)
-
-Content is going to go here   (more)
-
-*Clear all event logs so you can see what is going on*
-*Note: Needs Admin CMD* 
+To run the command below, open the Command Prompt as an administrator and type:
 
 `for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"`
 
+## 2. Run the system file checker
+
+The System File Checker (SFC) is a utility in Windows that scans for and repairs corrupted or missing system files. 
+
+To run it, open the Command Prompt as an administrator and type:
+
+`sfc /scannow`
+
+Wait for the scan to complete, the process may take some time.
+
+SFC will display a message indicating whether any issues were found and if repairs were made. 
+
+If SFC is unable to repair all corrupted files, you may need to use the Deployment Image Servicing and Management (DISM) tool. DISM can repair the Windows component store, which SFC relies on. 
+
+To run the command below, open the Command Prompt as an administrator and type:
+
+`DISM.exe /Online /Cleanup-image /Restorehealth`
+
+After DISM completes, run sfc again:
+
+`sfc /scannow`
+
+## 3.Run system file check on boot
+
+This takes a while, but is a great way to check for issues and try and fix them before Windows event boots.
+
 *Run a system check at boot (Accept and reboot)*
-*Note: Can take 4 hours+*
+*Note: Needs Admin CMD and on reboot Can take 4 hours+*
 
 `chkdsk /x /f /r`
 
-There will be:  
+(You might want to chuck this on on the background for a bit....)
 
-* Easy copy/paste scripts
-* If I've helped... help others
-* Deeper background into the FFS above...
+{% include video.html id="T_WSXXPQYeY" %}
 
 ## If I've helped...
 
 I'll honestly let you know if my time has been more hands on than hands off, and not take the proverbial for any payment.
 
-And if you do want to bung me a few quid here or there, then I'll point you in the direction of the two wonderful charties below:
+And if you do want to bung me a few quid here or there, then I'll point you in the direction of the three wonderful charties below:
+
+### Ferring Country Centre
+
+[https://ferringcountrycentre.org/](https://ferringcountrycentre.org/)
+
+*At Ferring Country Centre, their 32-acre site offers a blend of visitor attractions and specialised day services. As you explore, you’ll find a garden centre, café, soft play area, and our farm. But it’s not just about the attractions; your visit directly supports our mission as a charity to provide life-changing experiences.*
+
+*Established in 1986, their day services offer a safe and supportive environment for people with learning disabilities to develop new skills, which includes everything from woodwork and gardening to riding therapy and cooking classes.*
 
 ### Samaritans
 
@@ -69,9 +84,3 @@ And if you do want to bung me a few quid here or there, then I'll point you in t
 [https://www.cruse.org.uk](https://www.cruse.org.uk)
 
 *Cruse Bereavement Support and its counterpart Cruse Bereavement Care Scotland are the United Kingdom's largest bereavement charity, which provide free care and bereavement counselling to people suffering from grief*
-
-## Deeper background into the FFS above...
-
-TODO  
-
-*It's always TODO.... *
