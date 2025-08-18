@@ -203,6 +203,32 @@ body {
   }
 }
 
+// Subtitle Style
+// This is a reusable subtitle style that can be applied to any element
+
+.subtitle {
+  background: $subtitleBackground;
+  color: $subtitleColour;
+  padding: $subtitlePadding;
+  display: inline-block; // keeps it tight like a label
+  border-radius: 0.25rem; // optional, makes it look cleaner
+  font-family: $subtitleFont;
+  line-height: 1.4;
+  font-size: 1rem; // tweak as needed
+  text-align: center; // centers text within block
+
+  // Optional: allow size modifiers
+  &--small {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+  &--large {
+    font-size: 1.25rem;
+    padding: 0.8rem 1.2rem;
+  }
+}
+
+
 
 // Links, icons and images
 a .icon {
