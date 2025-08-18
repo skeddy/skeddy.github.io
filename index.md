@@ -5,7 +5,7 @@ title: home
 sidebar_link:  true
 feature_text: |
   ## Skeddys Support Website
-  Supporting you since... forever
+  ### Supporting you since... forever
 feature_image: "/assets/header_image.jpg"
 ---
 
