@@ -1,16 +1,16 @@
 // Background colours
-$backgroundColour: #F0EFEE !default;
-$codeBackgroundColour: #F0EFEE !default;
-$featureBackgroundColour: #F0EFEE !default;
-$accentColour: #C9C9BD !default;
+$backgroundColour: #fef1d2 !default; /* Light Background */
+$codeBackgroundColour: #fef1d2 !default;
+$featureBackgroundColour: #fef1d2 !default;
+$accentColour: #4a82c9 !default;
 
 // Text colours
-$headingColour: #460862 !default;
-$bodyColour: #384743 !default;
-$linkColour: #FAAC77 !default;
-$hoverColour: #C9C9BD !default;
+$headingColour: #4a82c9 !default; /* Eyes */
+$bodyColour: #39363e !default; /* Dark Hair/Shirt */
+$linkColour: #4a82c9 !default; /* Eyes */
+$hoverColour: #daa282 !default;
 $focusColour: #fa407a !default;
-$captionColour: #a8adac !default;
+$captionColour: #daa282 !default;
 $white: #ffffff !default;
 
 // Typography
