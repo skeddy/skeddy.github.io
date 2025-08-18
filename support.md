@@ -3,7 +3,8 @@ layout: page
 permalink: /support
 title: support
 sidebar_link:  true
-feature_text: | # Support
+feature_text: | 
+# Support
 feature_image: "/assets/header_image.jpg"
 ---
 
