@@ -203,40 +203,6 @@ body {
   }
 }
 
-// Subtitle Style
-// This is a reusable subtitle style that can be applied to any element
-
-/* Subtitle override styles */
-.subtitle {
-  background: $subtitleBackground !important;
-  color: $subtitleColour !important;
-  padding: $subtitlePadding !important;
-  display: inline-block !important;
-  border-radius: 0.25rem;
-  font-family: $subtitleFont;
-  font-size: 1rem;
-  line-height: 1.4;
-  text-align: center;
-
-  /* Reset default p/typography rules */
-  margin: 0 !important;
-  border: none !important;
-  box-shadow: none !important;
-
-  /* Optional: subtle shadow to make text pop on backgrounds */
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
-/* Size modifiers */
-.subtitle--small {
-  font-size: 0.85rem !important;
-  padding: 0.4rem 0.8rem !important;
-}
-
-.subtitle--large {
-  font-size: 1.25rem !important;
-  padding: 0.8rem 1.2rem !important;
-}
 
 // Links, icons and images
 a .icon {
@@ -487,5 +453,31 @@ pre code {
   pre {
     white-space: pre;
     overflow-x: scroll;
+  }
+}
+
+// Subtitle Style
+// This is a reusable subtitle style that can be applied to any element
+
+.subtitle {
+  background: $subtitleBackground !important;
+  color: $subtitleColour !important;
+  padding: $subtitlePadding !important;
+  display: inline-block !important;
+  border-radius: 0.25rem;
+  font-family: $subtitleFont;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  /* Fix uneven spacing from markdown paragraphs */
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: inherit !important;
+    display: inline !important;
   }
 }
