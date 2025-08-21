@@ -84,3 +84,44 @@ And if you do want to bung me a few quid here or there, then I'll point you in t
 [https://www.cruse.org.uk](https://www.cruse.org.uk)
 
 *Cruse Bereavement Support and its counterpart Cruse Bereavement Care Scotland are the United Kingdom's largest bereavement charity, which provide free care and bereavement counselling to people suffering from grief*
+
+### Testing
+
+```mermaid
+flowchart TD
+ subgraph Wi-Fi_Devices2g["**Wi-Fi Devices 2.4GHz**"]
+    direction LR
+        WI1["🎮 Nintendo Switch"]
+        WI2["Alexa"]
+        WI3["Other 2.4GHz devices"]
+  end
+ subgraph Wi-Fi_Devices5g["**Wi-Fi Devices 5GHz**"]
+    direction LR
+        WI4["📱iPhone 1"]
+        WI5["📱iPhone 2"]
+        WI6["📱iPad 1"]
+        WI7["Other 5GHz devices"]
+  end
+ subgraph Wired_Devices["**Wired Devices**"]
+    direction LR
+        W1["💻Macbook"]
+        W2["🎮 Nintendo Switch - Docked<br>_B07M91X2NW_"]
+        W3["Other wired devices"]
+   end
+ subgraph Switch_Devices["**Network Switch**"]
+    direction LR
+        W4["📺Smart TV"]
+        W5["🎮 xbox"]
+  end
+    1["Fiber ONT Box"] -- "CAT-7 Ethernet" --> 2["Main router"]
+    2 --> 3{"Connection"}
+    3 -- "Wired<br>CAT-7 Ethernet ≈900Mbps" --> 6["**Network Switch**<br>Netgear GS305 5 ports"] & Wired_Devices
+    3 -- "Wifi<br>2.4GHz ≈200Mbps" --> Wi-Fi_Devices2g
+    3 -- Wifi<br>5GHz ≈400Mbps --> Wi-Fi_Devices5g
+    6 -- "Wired<br>CAT-7 Ethernet ≈900Mbps" --> Switch_Devices
+     1:::green
+     6:::yellow
+    classDef green fill:#f96,stroke:#333
+    classDef yellow fill:#ff0,stroke:#333
+```
+
