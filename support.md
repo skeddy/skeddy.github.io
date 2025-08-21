@@ -87,7 +87,8 @@ And if you do want to bung me a few quid here or there, then I'll point you in t
 
 ### Testing
 
-```mermaid
+{% raw %}
+<div class="mermaid">
 flowchart TD
  subgraph Wi-Fi_Devices2g["**Wi-Fi Devices 2.4GHz**"]
     direction LR
@@ -123,5 +124,6 @@ flowchart TD
      6:::yellow
     classDef green fill:#f96,stroke:#333
     classDef yellow fill:#ff0,stroke:#333
-```
+</div>
+{% endraw %}
 
