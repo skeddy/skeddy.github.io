@@ -36,6 +36,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+- jekyll-mermaid # Add this line
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
