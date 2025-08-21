@@ -8,7 +8,7 @@ feature_text: |
 feature_image: "/assets/header_image.jpg"
 ---
 
-## Welcome! 
+## Hello!
 Welcome to my slightly but not often updated little space on the web!
 
 I'm a technical analyst by day, gamer/tech support at night (and sometimes during the day).
