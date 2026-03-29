@@ -16,6 +16,14 @@ Windows then gets confused and can't recall what it should or shouldn't install,
 
 So there's a coupple of things you can do here right off the bat.
 
+## Clear Cache Space
+
+The DISM.exe /Online /Cleanup-image /StartComponentCleanup command cleans up the Windows Component Store (WinSxS folder) by removing older, superseded versions of system components, freeing up disk space. 
+
+It is a safe, proactive maintenance command that acts immediately to remove unneeded files from updates, similar to running Disk Cleanup, and helps reduce the overall footprint of Windows. 
+
+`DISM.exe /Online /Cleanup-image /StartComponentCleanup`
+
 ## 1. Clear the windows event log
 
 Purge the whole thing, once you've had a look and determined that there's no other sort of issue.
