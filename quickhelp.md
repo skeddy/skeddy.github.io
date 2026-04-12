@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /cmd
-title: Commands
+permalink: /quickhelp
+title: Quickhelp
 sidebar_link:  true
 feature_text: | 
     ## CMD
