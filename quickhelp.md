@@ -25,52 +25,44 @@ Execute.
 ### The script
 
 ```powershell
-  # Define source and destination
+# Define source and destination
 $SourceRoot = "C:\Users"
 $BackupRoot = "C:\Temp\Backups"
 
-# Folders we want to grab from each user
+# Folders we want to grab
 $TargetFolders = @("Documents", "Pictures", "Music", "Desktop")
 
-# Create the main backup directory if it doesn't exist
 if (!(Test-Path $BackupRoot)) {
     New-Item -Path $BackupRoot -ItemType Directory | Out-Null
 }
 
-# Get all user folders (excluding system profiles)
 $UserProfiles = Get-ChildItem -Path $SourceRoot -Directory | Where-Object { 
     $_.Name -notmatch "Public|Default|All Users" 
 }
 
 foreach ($User in $UserProfiles) {
     $UserName = $User.Name
-    Write-Host "--- Processing User: $UserName ---" -ForegroundColor Cyan
-
-    # Create a specific folder for this user in C:\Temp\Backups
-    $UserDest = Join-Path $BackupRoot $UserName
-    if (!(Test-Path $UserDest)) {
-        New-Item -Path $UserDest -ItemType Directory | Out-Null
-    }
+    Write-Host "`n>>> Processing User: $UserName <<<" -ForegroundColor Cyan
 
     foreach ($Folder in $TargetFolders) {
         $SourcePath = Join-Path $User.FullName $Folder
-        $DestPath = Join-Path $UserDest $Folder
+        $DestPath = Join-Path $BackupRoot "$UserName\$Folder"
 
         if (Test-Path $SourcePath) {
-            Write-Host "Copying $Folder..." -ForegroundColor Gray
-            try {
-                # Copy-Item -Recurse handles the folder and all sub-files
-                Copy-Item -Path "$SourcePath\*" -Destination $DestPath -Recurse -Force -ErrorAction SilentlyContinue
-            }
-            catch {
-                Write-Host "Warning: Some files in $Folder could not be copied." -ForegroundColor Yellow
-            }
-        }
-        else {
-            Write-Host "Skip: $Folder does not exist for $UserName." -ForegroundColor DarkGray
+            Write-Host "Syncing $Folder..." -ForegroundColor Gray
+            
+            # ROBOCOPY COMMAND EXPLAINED:
+            # /E        : Copy subdirectories, including empty ones.
+            # /B        : Copy files in Backup mode (overrides most permission issues).
+            # /R:0      : Zero retries on failed files (stops it from hanging on locked system files).
+            # /W:0      : Zero seconds wait time between retries.
+            # /XJ       : Exclude Junction points (prevents infinite loops in older Windows setups).
+            # /NFL /NDL : Don't log every single file/dir name (keeps the console clean).
+            
+            robocopy $SourcePath $DestPath /E /B /R:0 /W:0 /XJ /NFL /NDL
         }
     }
 }
 
-Write-Host "Backup process complete! Check $BackupRoot" -ForegroundColor Green
+Write-Host "`nBackup process complete! Check $BackupRoot" -ForegroundColor Green
 ```
