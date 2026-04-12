@@ -24,7 +24,7 @@ Execute.
 
 ### The script
 
-`
+```powershell
   # Define source and destination
 $SourceRoot = "C:\Users"
 $BackupRoot = "C:\Temp\Backups"
@@ -73,4 +73,4 @@ foreach ($User in $UserProfiles) {
 }
 
 Write-Host "Backup process complete! Check $BackupRoot" -ForegroundColor Green
-`
+```
