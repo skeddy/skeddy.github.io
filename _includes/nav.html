@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-md navbar-light site-nav">
+  <div class="container">
+
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+      {{ site.title }}
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#main-nav"
+      aria-controls="main-nav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/' %}active{% endif %}"
+             href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/about' %}active{% endif %}"
+             href="{{ '/about/' | relative_url }}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/work' %}active{% endif %}"
+             href="{{ '/work/' | relative_url }}">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/contact' %}active{% endif %}"
+             href="{{ '/contact/' | relative_url }}">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>

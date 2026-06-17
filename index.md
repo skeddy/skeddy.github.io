@@ -1,32 +1,43 @@
 ---
-layout: page
-permalink: /
-title: home
-sidebar_link:  true
-feature_text: | 
-    ## Skeddys Support Website
-feature_image: "/assets/header_image.jpg"
+layout: home
+title: Home
 ---
 
-## Hello!
-Welcome to my slightly but not often updated little space on the web!
+<section class="hero">
+  <p class="hero-eyebrow">Welcome</p>
+  <h1 class="hero-title">Hi, I'm Your Name.<br>I make things for the web.</h1>
+  <p class="hero-lead">
+    I'm a designer and developer based in the UK. I care about clean code,
+    thoughtful design, and work that actually helps people.
+  </p>
+  <div class="d-flex gap-3 flex-wrap">
+    <a href="/work/" class="btn btn-primary">See my work</a>
+    <a href="/about/" class="btn btn-outline-primary">About me</a>
+  </div>
+</section>
 
-I'm a technical analyst by day, gamer/tech support at night (and sometimes during the day).
+---
 
-With nearly 20 years of helping others with technical issues with their home computers, I've become rather good at spotting issues, and getting them solved.
-
-And not just home computers - Android based phones too!
-
-## What is this?
-
-This is where I've decided to start documenting little support issues I've worked on for friends/family. It was fuelled by the fact that since the late end of 2021, I had five laptops passed over to me for performance issues. The first, well it took a while, but I got that back to optimal performance. The second, a few more things to tidy and tweak, but same result.
-
-By the third and onwards, I had a good little check list of things to start with, and it made it a lot easier to run them off in bulk at the start.
-
-So this *thing* exists for my own notes, and to give you the ability to do some DIY fixes yourself on your home computer and maybe your Android phone.
-
-## What is this not?
-
-Apple/iOS support... sorry!
-
-![Nope!](/_content/not.gif)
+<section class="row g-4 mt-2">
+  <div class="col-md-4">
+    <div class="card p-4 h-100">
+      <p class="card-tag mb-2">Design</p>
+      <h3 class="h5 mb-2">Thoughtful interfaces</h3>
+      <p class="text-muted small mb-0">Clean, accessible UI that gets out of the user's way.</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card p-4 h-100">
+      <p class="card-tag mb-2">Development</p>
+      <h3 class="h5 mb-2">Solid foundations</h3>
+      <p class="text-muted small mb-0">Semantic HTML, modern CSS, and well-structured code.</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card p-4 h-100">
+      <p class="card-tag mb-2">Writing</p>
+      <h3 class="h5 mb-2">Clear communication</h3>
+      <p class="text-muted small mb-0">Words that explain rather than impress.</p>
+    </div>
+  </div>
+</section>

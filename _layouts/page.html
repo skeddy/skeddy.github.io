@@ -2,20 +2,14 @@
 layout: default
 ---
 
-{% include site-header.html %}
+{% if page.title %}
+<div class="page-header mb-5">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+</div>
+<hr class="mb-5" />
+{% endif %}
 
-<main class="main  container">
-
-  <article class="article  article--page  content  typeset">
-
-    <!-- <h1>{{ page.title }}</h1> -->
-
-    {{ content }}
-
-  </article>
-
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
-</main>
-
-{% include site-footer.html %}
+<div class="page-body">
+  {{ content }}
+</div>

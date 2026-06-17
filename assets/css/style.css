@@ -1,0 +1,227 @@
+/* ═══════════════════════════════════════════
+   THEME TOKENS — change these to restyle everything
+   ═══════════════════════════════════════════ */
+:root {
+  --color-bg:          #fafaf8;
+  --color-surface:     #ffffff;
+  --color-accent:      #2d6a4f;      /* deep green — change this for a new accent */
+  --color-accent-light:#d8f3dc;
+  --color-text:        #1a1a1a;
+  --color-muted:       #6b7280;
+  --color-border:      #e5e7eb;
+
+  --font-display:      'Lora', Georgia, serif;
+  --font-body:         'Inter', system-ui, sans-serif;
+
+  --nav-height:        64px;
+  --radius:            8px;
+}
+
+/* ─── Base ─────────────────────────────────── */
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; }
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* ─── Navigation ────────────────────────────── */
+.site-nav {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  height: var(--nav-height);
+}
+
+.site-nav .navbar-brand {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 1.2rem;
+}
+
+.site-nav .nav-link {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding: 0.4rem 0.9rem !important;
+  border-radius: var(--radius);
+  transition: color 0.15s, background 0.15s;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link.active {
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+}
+
+/* ─── Page header ───────────────────────────── */
+.page-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.page-subtitle {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+hr {
+  border-color: var(--color-border);
+  opacity: 1;
+}
+
+/* ─── Homepage hero ─────────────────────────── */
+.hero {
+  padding: 5rem 0 4rem;
+}
+
+.hero-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-weight: 600;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.hero-lead {
+  font-size: 1.15rem;
+  color: var(--color-muted);
+  max-width: 52ch;
+  margin-bottom: 2rem;
+}
+
+/* ─── Cards (work/projects) ─────────────────── */
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.card-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* ─── Prose (Markdown content) ──────────────── */
+.page-body h1, .page-body h2, .page-body h3,
+.page-body h4, .page-body h5 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.page-body h2 { font-size: 1.6rem; }
+.page-body h3 { font-size: 1.25rem; }
+
+.page-body p { margin-bottom: 1.25rem; }
+
+.page-body ul, .page-body ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.page-body blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.25rem;
+  color: var(--color-muted);
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.page-body code {
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.page-body pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+.page-body pre {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* ─── Buttons ───────────────────────────────── */
+.btn-primary {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+.btn-primary:hover {
+  background: #235c40;
+  border-color: #235c40;
+}
+
+.btn-outline-primary {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+.btn-outline-primary:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* ─── Footer ────────────────────────────────── */
+.site-footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+
+.site-footer .social-links a {
+  color: var(--color-muted);
+  font-size: 1.2rem;
+  transition: color 0.15s;
+}
+.site-footer .social-links a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* ─── Utilities ─────────────────────────────── */
+.text-accent { color: var(--color-accent); }
+.bg-accent   { background: var(--color-accent); }
