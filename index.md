@@ -4,14 +4,14 @@ title: Home
 ---
 
 <section class="hero">
-  <p class="hero-eyebrow">Hello!</p>
+  <!-- <p class="hero-eyebrow">Hello!</p> -->
   <h1 class="hero-title">Hi, I'm Rob!</h1>
   <p class="hero-lead">
-  I'm here to help you through the minefield of technology
+  I'm here to help you through the minefield of technology.
   </p>
   <div class="d-flex gap-3 flex-wrap">
-    <a href="/work/" class="btn btn-primary">See my work</a>
-    <a href="/about/" class="btn btn-outline-primary">About me</a>
+    <a href="/about/" class="btn btn-outline-primary">About this site</a>
+    <a href="/support/" class="btn btn-outline-primary">Support articles</a>
   </div>
 </section>
 

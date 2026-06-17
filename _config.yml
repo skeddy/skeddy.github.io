@@ -5,7 +5,7 @@ title: "skeddysupport.uk"
 tagline: "Helping you through the minefield of the technology"
 description: "Personal portfolio and writing"
 author: "Rob"
-email: "sked.ster@gmail.com"
+email: ""
 
 # Social links (leave blank to hide)
 github_username: ""
@@ -16,8 +16,8 @@ twitter_username: ""
 #  GitHub Pages / Jekyll settings
 #  (no need to change these)
 # ─────────────────────────────────────────────
-baseurl: ""          # e.g. "/my-repo" if not a username.github.io site
-url: "https://skeddysupport.uk/"              # e.g. "https://yourname.github.io"
+baseurl: ""                         # e.g. "/my-repo" if not a username.github.io site
+url: "https://skeddysupport.uk/"    # e.g. "https://yourname.github.io"
 
 markdown: kramdown
 highlighter: rouge

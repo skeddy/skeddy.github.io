@@ -5,27 +5,25 @@ subtitle: A bit about me and what I do
 permalink: /about/
 ---
 
-## Who I am
+## Hello!
+Welcome to my slightly but not often updated little space on the web!
 
-Replace this with your own story. Tell visitors who you are, what you do, and what
-drives your work. Keep it genuine — people connect with real voices, not buzzwords.
+I'm a technical analyst by day, gamer/tech support at night (and sometimes during the day).
 
-## What I do
+With nearly 20 years of helping others with technical issues with their home computers, I've become rather good at spotting issues, and getting them solved.
 
-I work at the intersection of design and development — building things that look good,
-work well, and are easy to maintain. Currently available for freelance projects.
+And not just home computers - Android based phones too!
 
-## Skills
+## What is this?
 
-- Web design & front-end development
-- User experience & accessibility
-- Something else you're good at
+This is where I've decided to start documenting little support issues I've worked on for friends/family. It was fuelled by the fact that since the late end of 2021, I had five laptops passed over to me for performance issues. The first, well it took a while, but I got that back to optimal performance. The second, a few more things to tidy and tweak, but same result.
 
-## Outside of work
+By the third and onwards, I had a good little check list of things to start with, and it made it a lot easier to run them off in bulk at the start.
 
-A short paragraph about your life beyond the screen makes you memorable and human.
-Hobbies, location, what you're reading — whatever feels right to share.
+So this *thing* exists for my own notes, and to give you the ability to do some DIY fixes yourself on your home computer and maybe your Android phone.
 
----
+## What is this not?
 
-*Want to work together? [Get in touch](/contact/).*
+Apple/iOS support... sorry!
+
+![Nope!](/_content/not.gif)
