@@ -1,11 +1,11 @@
 # ─────────────────────────────────────────────
 #  Site settings — edit these first
 # ─────────────────────────────────────────────
-title: "Your Name"
-tagline: "Designer · Developer · Creator"
+title: "skeddysupport.uk"
+tagline: "Helping you through the minefield of the technology"
 description: "Personal portfolio and writing"
-author: "Your Name"
-email: "you@example.com"
+author: "Rob"
+email: "sked.ster@gmail.com"
 
 # Social links (leave blank to hide)
 github_username: ""
@@ -17,7 +17,7 @@ twitter_username: ""
 #  (no need to change these)
 # ─────────────────────────────────────────────
 baseurl: ""          # e.g. "/my-repo" if not a username.github.io site
-url: ""              # e.g. "https://yourname.github.io"
+url: "https://skeddysupport.uk/"              # e.g. "https://yourname.github.io"
 
 markdown: kramdown
 highlighter: rouge

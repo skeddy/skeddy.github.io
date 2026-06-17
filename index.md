@@ -4,11 +4,10 @@ title: Home
 ---
 
 <section class="hero">
-  <p class="hero-eyebrow">Welcome</p>
-  <h1 class="hero-title">Hi, I'm Your Name.<br>I make things for the web.</h1>
+  <p class="hero-eyebrow">Hello!</p>
+  <h1 class="hero-title">Hi, I'm Rob!</h1>
   <p class="hero-lead">
-    I'm a designer and developer based in the UK. I care about clean code,
-    thoughtful design, and work that actually helps people.
+  I'm here to help you through the minefield of technology
   </p>
   <div class="d-flex gap-3 flex-wrap">
     <a href="/work/" class="btn btn-primary">See my work</a>
