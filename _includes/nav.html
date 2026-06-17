@@ -1,42 +1,31 @@
-<nav class="navbar navbar-expand-md navbar-light site-nav">
-  <div class="container">
+<ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+    <a class="nav-link {% if page.url == '/' %}active{% endif %}"
+       href="{{ '/' | relative_url }}">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {% if page.url contains '/about' %}active{% endif %}"
+       href="{{ '/about/' | relative_url }}">About</a>
+  </li>
 
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">
-      {{ site.title }}
+  <!-- Support dropdown -->
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle {% if page.category == 'support' %}active{% endif %}"
+       href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Support
     </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+      {% assign support_pages = site.pages
+         | concat: site.collections
+         | where: "category", "support"
+         | sort: "title" %}
+      {% for p in support_pages %}
+      <li>
+        <a class="dropdown-item {% if page.url == p.url %}active{% endif %}"
+           href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#main-nav"
-      aria-controls="main-nav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="main-nav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link {% if page.url == '/' %}active{% endif %}"
-             href="{{ '/' | relative_url }}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {% if page.url contains '/about' %}active{% endif %}"
-             href="{{ '/about/' | relative_url }}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {% if page.url contains '/support' %}active{% endif %}"
-             href="{{ '/support/' | relative_url }}">Support</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {% if page.url contains '/quickhelp' %}active{% endif %}"
-             href="{{ '/quickhelp/' | relative_url }}">Quick help</a>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-</nav>
+</ul>

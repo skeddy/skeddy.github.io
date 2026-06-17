@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Support
-subtitle: Quick Support
-permalink: /support/
+title: De-bloat
+subtitle: Quickly debloat Windows 10/11 for support
+permalink: /support/debloat/
+category: support
+
 ---
 
 One of the main issues I've seen in recent years, has been where Windows Updates are not getting installed correctly. 

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Quick help
-subtitle: Subtitle
-permalink: /quickhelp/
+title: Bulk User Backup
+subtitle: Quickly backup all user profile data
+permalink: /support/Bulk user backup/
+category: support
 ---
 
 ##  If you've found this... well done
