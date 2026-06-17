@@ -39,3 +39,12 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+# Disable the default GitHub Pages theme
+theme: null
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
