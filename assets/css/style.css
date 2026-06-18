@@ -1,6 +1,12 @@
 /* ═══════════════════════════════════════════
    THEME TOKENS — change these to restyle everything
    ═══════════════════════════════════════════ */
+
+   /* 'Dosis' */
+   @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+      /* 'Faculty+Glyphic' */
+   @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --color-bg:          #fafaf8;
   --color-surface:     #ffffff;
@@ -10,8 +16,8 @@
   --color-muted:       #6b7280;
   --color-border:      #e5e7eb;
 
-  --font-display:      'Lora', Georgia, serif;
-  --font-body:         'Inter', system-ui, sans-serif;
+  --font-display:      'Faculty Glyphic','Lora', Georgia, serif;
+  --font-body:         'Faculty Glyphic','Inter', system-ui, sans-serif;
 
   --nav-height:        64px;
   --radius:            8px;
@@ -255,4 +261,30 @@ hr {
 .dropdown-item.active {
   background: var(--color-accent-light);
   color: var(--color-accent);
+}
+
+/* Copy button on code blocks */
+.copy-btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius);
+  color: #aaa;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  line-height: 1;
+}
+
+.copy-btn:hover {
+  color: #fff;
+  border-color: rgba(255,255,255,0.5);
+}
+
+.copy-btn.copied {
+  color: #6ee7b7;
+  border-color: #6ee7b7;
 }

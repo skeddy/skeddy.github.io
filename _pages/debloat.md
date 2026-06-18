@@ -23,7 +23,9 @@ It is a safe, proactive maintenance command that acts immediately to remove unne
 
 To run the command below, open the Command Prompt as an administrator and type:
 
-`DISM.exe /Online /Cleanup-image /StartComponentCleanup`
+```cmd
+DISM.exe /Online /Cleanup-image /StartComponentCleanup
+```
 
 ## 1. Clear the windows event log
 
@@ -31,7 +33,9 @@ Purge the whole thing, once you've had a look and determined that there's no oth
 
 To run the command below, open the Command Prompt as an administrator and type:
 
-`for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"`
+```cmd
+for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
+```
 
 ## 2. Run the system file checker
 
@@ -39,7 +43,9 @@ The System File Checker (SFC) is a utility in Windows that scans for and repairs
 
 To run it, open the Command Prompt as an administrator and type:
 
-`sfc /scannow`
+```cmd
+sfc /scannow
+```
 
 Wait for the scan to complete, the process may take some time.
 
@@ -49,11 +55,15 @@ If SFC is unable to repair all corrupted files, you may need to use the Deployme
 
 To run the command below, open the Command Prompt as an administrator and type:
 
-`DISM.exe /Online /Cleanup-image /Restorehealth`
+```cmd
+DISM.exe /Online /Cleanup-image /Restorehealth
+```
 
 After DISM completes, run sfc again:
 
-`sfc /scannow`
+```cmd
+sfc /scannow
+```
 
 ## 3.Run system file check on boot
 
@@ -62,7 +72,9 @@ This takes a while, but is a great way to check for issues and try and fix them 
 *Run a system check at boot (Accept and reboot)*
 *Note: Needs Admin CMD and on reboot Can take 4 hours+*
 
-`chkdsk /x /f /r`
+```cmd
+chkdsk /x /f /r
+```
 
 (You might want to chuck this on on the background for a bit....)
 

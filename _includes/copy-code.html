@@ -1,0 +1,25 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre > code").forEach(function (codeBlock) {
+    const button = document.createElement("button");
+    button.className = "copy-btn";
+    button.title = "Copy to clipboard";
+    button.innerHTML = '<i class="bi bi-clipboard"></i>';
+
+    const pre = codeBlock.parentNode;
+    pre.style.position = "relative";
+    pre.appendChild(button);
+
+    button.addEventListener("click", function () {
+      navigator.clipboard.writeText(codeBlock.innerText).then(function () {
+        button.innerHTML = '<i class="bi bi-clipboard-check"></i>';
+        button.classList.add("copied");
+        setTimeout(function () {
+          button.innerHTML = '<i class="bi bi-clipboard"></i>';
+          button.classList.remove("copied");
+        }, 2000);
+      });
+    });
+  });
+});
+</script>

@@ -22,7 +22,7 @@ Execute.
 
 ### The script
 
-```powershell
+```cmd
 # Define source and destination
 $SourceRoot = "C:\Users"
 $BackupRoot = "C:\Temp\Backups"
