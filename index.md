@@ -27,9 +27,9 @@ title: Home
   </div>
   <div class="col-md-4">
     <div class="card p-4 h-100">
-      <p class="card-tag mb-2">Development</p>
-      <h3 class="h5 mb-2">Solid foundations</h3>
-      <p class="text-muted small mb-0">Semantic HTML, modern CSS, and well-structured code.</p>
+      <p class="card-tag mb-2">Software</p>
+      <h3 class="h5 mb-2">Links and info</h3>
+      <p class="text-muted small mb-0">Providing you a useful list of software that is useful.</p>
     </div>
   </div>
   <div class="col-md-4">
