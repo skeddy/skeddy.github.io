@@ -32,6 +32,7 @@ title: Home
       <p class="text-muted small mb-0">Providing you a useful list of software that is useful.</p>
     </div>
   </div>
+  <!--
   <div class="col-md-4">
     <div class="card p-4 h-100">
       <p class="card-tag mb-2">Writing</p>
@@ -39,4 +40,5 @@ title: Home
       <p class="text-muted small mb-0">Words that explain rather than impress.</p>
     </div>
   </div>
+  -->
 </section>
