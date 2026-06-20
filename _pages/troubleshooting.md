@@ -1,7 +1,7 @@
 ---
 layout: page
-title: De-bloat
-subtitle: Quickly debloat Windows 10/11 for support
+title: Troubleshooting Cleanup
+subtitle: Clearing up Windows 10/11 for troubleshooting
 permalink: /support/debloat/
 category: support
 

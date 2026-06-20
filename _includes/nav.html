@@ -47,24 +47,9 @@
             {% endfor %}
           </ul>
         </li>
-          <!-- Software dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {% if page.category == 'software' %}active{% endif %}"
-             href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Software
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            {% assign software_pages = site.pages
-               | concat: site.collections
-               | where: "category", "software"
-               | sort: "title" %}
-            {% for p in software_pages %}
-            <li>
-              <a class="dropdown-item {% if page.url == p.url %}active{% endif %}"
-                 href="{{ p.url | relative_url }}">{{ p.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/software' %}active{% endif %}"
+             href="{{ '/software/' | relative_url }}">Software</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {% if page.url contains '/links' %}active{% endif %}"
