@@ -20,9 +20,9 @@ title: Home
 <section class="row g-4 mt-2">
   <div class="col-md-4">
     <div class="card p-4 h-100">
-      <p class="card-tag mb-2">Design</p>
-      <h3 class="h5 mb-2">Thoughtful interfaces</h3>
-      <p class="text-muted small mb-0">Clean, accessible UI that gets out of the user's way.</p>
+      <p class="card-tag mb-2">Support</p>
+      <h3 class="h5 mb-2">Helping you quickly</h3>
+      <p class="text-muted small mb-0">Quick little nuggest of info that can help you out.</p>
     </div>
   </div>
   <div class="col-md-4">
