@@ -23,6 +23,10 @@
   --radius:            8px;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 /* ─── Base ─────────────────────────────────── */
 body {
   font-family: var(--font-body);
