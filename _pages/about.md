@@ -16,7 +16,7 @@ And not just home computers - Android based phones too!
 
 ## What is this?
 
-This is where I've decided to start documenting little support issues I've worked on for friends/family. It was fuelled by the fact that since the late end of 2021, I had five laptops passed over to me for performance issues. The first, well it took a while, but I got that back to optimal performance. The second, a few more things to tidy and tweak, but same result.
+This is where I've decided to start documenting little support issues I've worked on for friends/family. It was fuelled by the fact that since the late end of 2021, I had a number of laptops/desktops passed over to me for performance issues. The first, well it took a while, but I got that back to optimal performance. The second, a few more things to tidy and tweak, but same result.
 
 By the third and onwards, I had a good little check list of things to start with, and it made it a lot easier to run them off in bulk at the start.
 
