@@ -60,7 +60,7 @@ To run the command below, open the Command Prompt as an administrator and type:
 for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
 ```
 
-## 3.Run system file check on boot
+## 3. Run system file check on boot
 
 This takes a while, but is a great way to check for any remaining issues.
 
