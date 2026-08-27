@@ -11,30 +11,18 @@ One of the main issues I've seen in recent years, has been where Windows Updates
 
 Windows then gets confused and can't recall what it should or shouldn't install, and ends up looping through the same update over and over. 
 
-So there's a coupple of things you can do here right off the bat.
+So there's a couple of things you can do here right off the bat.
 
 ---
 
-## Clear Cache Space
+## 1. Repair the Windows Image (DISM)
 
-The DISM.exe /Online /Cleanup-image /StartComponentCleanup command cleans up the Windows Component Store (WinSxS folder) by removing older, superseded versions of system components, freeing up disk space. 
-
-It is a safe, proactive maintenance command that acts immediately to remove unneeded files from updates, similar to running Disk Cleanup, and helps reduce the overall footprint of Windows.
+This repairs the Windows Component Store—the hidden backup repository that Windows uses to fix itself.
 
 To run the command below, open the Command Prompt as an administrator and type:
 
 ```cmd
-DISM.exe /Online /Cleanup-image /StartComponentCleanup
-```
-
-## 1. Clear the windows event log
-
-Purge the whole thing, once you've had a look and determined that there's no other sort of issue.
-
-To run the command below, open the Command Prompt as an administrator and type:
-
-```cmd
-for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
+DISM.exe /Online /Cleanup-image /Restorehealth
 ```
 
 ## 2. Run the system file checker
@@ -46,28 +34,35 @@ To run it, open the Command Prompt as an administrator and type:
 ```cmd
 sfc /scannow
 ```
-
 Wait for the scan to complete, the process may take some time.
 
 SFC will display a message indicating whether any issues were found and if repairs were made. 
 
-If SFC is unable to repair all corrupted files, you may need to use the Deployment Image Servicing and Management (DISM) tool. DISM can repair the Windows component store, which SFC relies on. 
+## 3. Clear Cache Space
+
+The DISM.exe /Online /Cleanup-image /StartComponentCleanup command cleans up the Windows Component Store (WinSxS folder) by removing older, superseded versions of system components, freeing up disk space. 
+
+It is a safe, proactive maintenance command that acts immediately to remove unneeded files from updates, similar to running Disk Cleanup, and helps reduce the overall footprint of Windows.
 
 To run the command below, open the Command Prompt as an administrator and type:
 
 ```cmd
-DISM.exe /Online /Cleanup-image /Restorehealth
+DISM.exe /Online /Cleanup-image /StartComponentCleanup
 ```
 
-After DISM completes, run sfc again:
+## 4. Clear the windows event log
+
+Purge the whole thing, so that you now have a good set of clear logs for any "new" issues.
+
+To run the command below, open the Command Prompt as an administrator and type:
 
 ```cmd
-sfc /scannow
+for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
 ```
 
 ## 3.Run system file check on boot
 
-This takes a while, but is a great way to check for issues and try and fix them before Windows event boots.
+This takes a while, but is a great way to check for any remaining issues.
 
 *Run a system check at boot (Accept and reboot)*
 *Note: Needs Admin CMD and on reboot Can take 4 hours+*
