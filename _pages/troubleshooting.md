@@ -65,7 +65,7 @@ To run the command below, open the Command Prompt as an administrator and type:
 for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
 ```
 
-This can take approx 2 mins to complete.
+This can take approx 3-5 mins to complete.
 
 ## 3. Run system file check on boot
 
