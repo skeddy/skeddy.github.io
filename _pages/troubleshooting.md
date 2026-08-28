@@ -25,6 +25,8 @@ To run the command below, open the Command Prompt as an administrator and type:
 DISM.exe /Online /Cleanup-image /Restorehealth
 ```
 
+This can take approx 10-15 mins to complete.
+
 ## 2. Run the system file checker
 
 The System File Checker (SFC) is a utility in Windows that scans for and repairs corrupted or missing system files. 
@@ -34,7 +36,8 @@ To run it, open the Command Prompt as an administrator and type:
 ```cmd
 sfc /scannow
 ```
-Wait for the scan to complete, the process may take some time.
+
+This can take approx 2-5 mins to complete.
 
 SFC will display a message indicating whether any issues were found and if repairs were made. 
 
@@ -50,6 +53,8 @@ To run the command below, open the Command Prompt as an administrator and type:
 DISM.exe /Online /Cleanup-image /StartComponentCleanup
 ```
 
+This can take approx 2 mins to complete.
+
 ## 4. Clear the windows event log
 
 Purge the whole thing, so that you now have a good set of clear logs for any "new" issues.
@@ -60,12 +65,14 @@ To run the command below, open the Command Prompt as an administrator and type:
 for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
 ```
 
+This can take approx 2 mins to complete.
+
 ## 3. Run system file check on boot
 
 This takes a while, but is a great way to check for any remaining issues.
 
 *Run a system check at boot (Accept and reboot)*
-*Note: Needs Admin CMD and on reboot Can take 4 hours+*
+*Note: Needs Admin CMD and on reboot Can take 2-4 hours depending on your system hardware and space used*
 
 ```cmd
 chkdsk /x /f /r
