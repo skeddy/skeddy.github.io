@@ -6,29 +6,17 @@
     </p>
 
     <div class="social-links d-flex gap-3">
-      {% if site.github_username != "" %}
-      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"
-         aria-label="GitHub">
-        <i class="bi bi-github"></i>
-      </a>
-      {% endif %}
-      {% if site.linkedin_username != "" %}
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener"
-         aria-label="LinkedIn">
-        <i class="bi bi-linkedin"></i>
-      </a>
-      {% endif %}
-      {% if site.twitter_username != "" %}
-      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener"
-         aria-label="Twitter / X">
-        <i class="bi bi-twitter-x"></i>
-      </a>
-      {% endif %}
-      {% if site.email != "" %}
-      <a href="mailto:{{ site.email }}" aria-label="Email">
-        <i class="bi bi-envelope"></i>
-      </a>
-      {% endif %}
+<div class="jarvis">
+  <div class="status">⚡ JARVIS SYSTEMS ONLINE</div>
+  <div class="quote">“Part of the journey is the end.” — Tony Stark</div>
+</div>
+
+<style>
+.jarvis{text-align:center;margin-top:20px;font:12px Arial}
+.status{letter-spacing:2px;animation:p 2.5s infinite}
+.quote{margin-top:6px;font-style:italic;opacity:.7}
+@keyframes p{0%,100%{opacity:.45}50%{opacity:1;text-shadow:0 0 8px currentColor}}
+</style>
     </div>
 
   </div>
